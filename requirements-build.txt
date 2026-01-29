@@ -1,0 +1,4 @@
+# Dependências para gerar o executável (.exe) com PyInstaller
+# Instale com: pip install -r requirements.txt -r requirements-build.txt
+-r requirements.txt
+pyinstaller>=6.0.0
