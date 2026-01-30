@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field, field_validator
-from typing import Optional, Any
+from typing import Optional, Any, Literal
 from app.models import TipoEventoEnum, IncidenciaEnum
 
 
@@ -202,7 +202,12 @@ class CalculoHoraNormalNoturnaRequest(BaseModel):
 class CalculoAdicionalNoturnoRequest(BaseModel):
     salario_base: float = Field(..., gt=0, description="Salário base do funcionário")
     jornada_mensal: float = Field(..., gt=0, description="Jornada mensal em horas (ex: 220)")
-    quantidade_horas: float = Field(..., gt=0, description="Quantidade de horas noturnas reduzidas (52,5 min)")
+    quantidade_horas: float = Field(..., gt=0, description="Quantidade de horas noturnas lançadas (60 min)")
+    periculosidade: bool = Field(default=False, description="Se o funcionário possui periculosidade (30% na base)")
+    tipo_cargo: Literal["OPERACAO", "ADMINISTRATIVO"] = Field(
+        default="OPERACAO",
+        description="Operação = 20%; Administrativo = 35%"
+    )
 
 
 class CalculoDSRRequest(BaseModel):
@@ -218,10 +223,17 @@ class CalculoPericulosidadeRequest(BaseModel):
 class CalculoInterjornadaRequest(BaseModel):
     salario_base: float = Field(..., gt=0, description="Salário base do funcionário")
     jornada_mensal: float = Field(..., gt=0, description="Jornada mensal em horas (ex: 220)")
-    horas_faltantes: float = Field(..., ge=0, le=11, description="Horas faltantes para completar 11h de descanso (0 a 11h)")
+    horas_faltantes: float = Field(..., ge=0, description="Horas não descansadas (ex.: 26,25)")
     adicional: float = Field(default=0.50, ge=0, description="Adicional percentual (0.50 para 50%, 0.80 para 80%)")
+
+
+class CalculoTempoADisposicaoRequest(BaseModel):
+    salario_base: float = Field(..., gt=0, description="Salário base do funcionário")
+    jornada_mensal: float = Field(..., gt=0, description="Jornada mensal em horas (ex: 220)")
+    horas_a_disposicao: float = Field(..., gt=0, description="Horas a disposição")
 
 
 class CalculoProventoResponse(BaseModel):
     valor_calculado: float = Field(..., description="Valor calculado do provento")
     detalhes: str = Field(..., description="Detalhes do cálculo")
+    memoria_calculo: Optional[dict] = Field(default=None, description="Memória de cálculo (ex.: adicional noturno)")

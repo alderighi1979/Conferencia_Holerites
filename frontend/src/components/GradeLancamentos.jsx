@@ -31,11 +31,24 @@ function GradeLancamentos({ eventos, setEventos, tipoCalculo, setTipoCalculo, sa
       setEventosCache(prev => ({ ...prev, [codigoNum]: evento }));
       atualizarEvento(index, 'descricao', evento.descricao);
     } catch (error) {
-      console.error('Erro ao buscar evento:', error);
-      atualizarEvento(index, 'descricao', 'Evento não encontrado');
+      const isTimeout = error.code === 'ECONNABORTED' || error.message?.includes('timeout');
+      if (isTimeout) {
+        console.warn('Busca do evento excedeu o tempo. Verifique se o servidor está ativo.');
+      } else {
+        console.error('Erro ao buscar evento:', error);
+      }
+      atualizarEvento(index, 'descricao', isTimeout ? 'Erro ao buscar (tempo esgotado)' : 'Evento não encontrado');
     } finally {
       setLoadingEventos(prev => ({ ...prev, [index]: false }));
     }
+  };
+
+  const limparLoadingDoIndice = (index) => {
+    setLoadingEventos(prev => {
+      const next = { ...prev };
+      delete next[index];
+      return next;
+    });
   };
 
   const atualizarEvento = (index, campo, valor) => {
@@ -91,7 +104,7 @@ function GradeLancamentos({ eventos, setEventos, tipoCalculo, setTipoCalculo, sa
 
   const removerEvento = (index) => {
     setEventos(prev => prev.filter((_, i) => i !== index));
-    // Limpar timeout se existir
+    limparLoadingDoIndice(index);
     if (timeoutRefs.current[index]) {
       clearTimeout(timeoutRefs.current[index]);
       delete timeoutRefs.current[index];
@@ -177,6 +190,7 @@ function GradeLancamentos({ eventos, setEventos, tipoCalculo, setTipoCalculo, sa
                       if (timeoutRefs.current[index]) clearTimeout(timeoutRefs.current[index]);
                       if (!codigoLimpo) {
                         atualizarEvento(index, 'descricao', '');
+                        limparLoadingDoIndice(index);
                         return;
                       }
                       if (codigoLimpo.length >= 3) {
@@ -300,6 +314,7 @@ function GradeLancamentos({ eventos, setEventos, tipoCalculo, setTipoCalculo, sa
         tipoCalculo={tipoCalculo}
         salarioBase={salarioBase}
         jornadaMensal={jornadaMensal}
+        codigoEvento={indexCalculadora !== null ? (eventos[indexCalculadora]?.codigo_evento ?? '') : ''}
       />
     </div>
   );

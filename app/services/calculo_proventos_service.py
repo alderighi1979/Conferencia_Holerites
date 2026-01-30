@@ -80,23 +80,41 @@ def calcular_hora_normal_noturna(
 def calcular_adicional_noturno(
     salario_base: float,
     jornada_mensal: float,
-    quantidade_horas: float
-) -> Tuple[float, str]:
+    quantidade_horas: float,
+    periculosidade: bool = False,
+    tipo_cargo: str = "OPERACAO"
+) -> Tuple[float, str, dict]:
     """
-    Calcula adicional noturno (20%) conforme CLT — valor separado para conferência.
-    Fórmula: (Valor_da_Hora_Normal × 0,20) × Quantidade_Horas_Noturnas_Reduzidas
-    Sendo Valor_da_Hora_Normal = Salário / Jornada.
-    Quantidade em horas noturnas reduzidas (52,5 min).
+    Calcula adicional noturno com base na hora comum (60 min), sem redução.
+    - VHN = Salário_Base / Jornada_Mensal
+    - Se periculosidade: Base_Adicional = VHN * 1,30
+    - Operação: 20%; Administrativo: 35%
+    - Total = Valor_Adicional_Hora × Qtd_Horas_Lançadas
     """
-    valor_hora_normal = salario_base / jornada_mensal
-    valor_adicional = (valor_hora_normal * 0.20) * quantidade_horas
+    vhn = salario_base / jornada_mensal
+    valor_peric = (vhn * 0.30) if periculosidade else 0.0
+    base_adicional = vhn + valor_peric
+    aliquota = 0.35 if (tipo_cargo or "").upper() == "ADMINISTRATIVO" else 0.20
+    aliquota_pct = 35 if (tipo_cargo or "").upper() == "ADMINISTRATIVO" else 20
+    valor_adicional_hora = base_adicional * aliquota
+    total = round(valor_adicional_hora * quantidade_horas, 2)
+
     detalhes = (
-        f"Valor da Hora Normal: R$ {valor_hora_normal:.2f} | "
-        f"Adicional Noturno: 20% | "
-        f"Horas Noturnas (reduzidas): {quantidade_horas:.2f}h | "
-        f"Total: R$ {valor_adicional:.2f}"
+        f"Valor Hora: R$ {vhn:.2f} | "
+        + (f"+ 30% Periculosidade: R$ {valor_peric:.2f} | " if periculosidade else "")
+        + f"Base Adicional: R$ {base_adicional:.2f} | "
+        f"Alíquota {aliquota_pct}% | "
+        f"R$ {valor_adicional_hora:.2f}/h × {quantidade_horas:.2f}h = R$ {total:.2f}"
     )
-    return round(valor_adicional, 2), detalhes
+    memoria = {
+        "valor_hora": round(vhn, 2),
+        "periculosidade_30": round(valor_peric, 2),
+        "base_adicional": round(base_adicional, 2),
+        "aliquota_pct": aliquota_pct,
+        "valor_adicional_hora": round(valor_adicional_hora, 2),
+        "quantidade_horas": quantidade_horas,
+    }
+    return total, detalhes, memoria
 
 
 def calcular_dsr(
@@ -162,22 +180,20 @@ def calcular_interjornada(
     adicional: float = 0.50
 ) -> Tuple[float, str]:
     """
-    Calcula interjornada (pagamento pelas horas faltantes para completar 11h de descanso).
-    Fórmula: ((Salário base / Jornada) * (1 + Adicional)) * Horas faltantes (0 a 11h)
+    Calcula interjornada (pagamento pelas horas não descansadas).
+    Fórmula: ((Salário base / Jornada) * (1 + Adicional)) * Horas não descansadas
     
     Args:
         salario_base: Salário base do funcionário
         jornada_mensal: Jornada mensal em horas (ex: 220)
-        horas_faltantes: Horas que faltaram para completar 11h de descanso (0 a 11h)
+        horas_faltantes: Horas não descansadas (ex.: 26,25)
         adicional: Adicional percentual (0.50 para 50%, 0.80 para 80%)
     
     Returns:
         (valor_calculado, detalhes)
     """
     if horas_faltantes <= 0:
-        return 0.0, "Horas faltantes deve ser maior que zero."
-    if horas_faltantes > 11:
-        horas_faltantes = 11.0
+        return 0.0, "Horas não descansadas deve ser maior que zero."
 
     valor_hora = salario_base / jornada_mensal
     valor_interjornada = (valor_hora * (1 + adicional)) * horas_faltantes
@@ -186,8 +202,32 @@ def calcular_interjornada(
     detalhes = (
         f"(Salário Base / {jornada_mensal:.0f}): R$ {valor_hora:.2f} | "
         f"(1 + Adicional {adicional_percent:.0f}%): R$ {valor_hora * (1 + adicional):.2f}/h | "
-        f"Horas Faltantes: {horas_faltantes:.2f}h | "
+        f"Horas não descansadas: {horas_faltantes:.2f}h | "
         f"Total: R$ {valor_interjornada:.2f}"
     )
 
     return round(valor_interjornada, 2), detalhes
+
+
+def calcular_tempo_a_disposicao(
+    salario_base: float,
+    jornada_mensal: float,
+    horas_a_disposicao: float
+) -> Tuple[float, str]:
+    """
+    Calcula tempo a disposição.
+    Fórmula: (Salário base / Jornada) × Horas a disposição
+    """
+    if horas_a_disposicao <= 0:
+        return 0.0, "Horas a disposição deve ser maior que zero."
+
+    valor_hora = salario_base / jornada_mensal
+    valor_total = valor_hora * horas_a_disposicao
+
+    detalhes = (
+        f"(Salário Base / {jornada_mensal:.0f}): R$ {valor_hora:.2f}/h | "
+        f"Horas a disposição: {horas_a_disposicao:.2f}h | "
+        f"Total: R$ {valor_total:.2f}"
+    )
+
+    return round(valor_total, 2), detalhes

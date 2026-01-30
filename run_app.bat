@@ -23,7 +23,7 @@ if not exist ".venv\Scripts\activate.bat" (
 :: WorkingDirectory garante que o banco (conferencia_folha.db) fique na pasta do projeto
 set "BASE=%~dp0"
 set "FRONT=%~dp0frontend"
-powershell -NoProfile -Command "Start-Process -FilePath 'cmd.exe' -ArgumentList '/c', 'call .venv\Scripts\activate.bat && uvicorn app.main:app --host 0.0.0.0 --port 8001' -WindowStyle Hidden -WorkingDirectory '%BASE%'"
+powershell -NoProfile -Command "Start-Process -FilePath 'cmd.exe' -ArgumentList '/c', 'call .venv\Scripts\activate.bat && uvicorn app.main:app --reload --host 0.0.0.0 --port 8001' -WindowStyle Hidden -WorkingDirectory '%BASE%'"
 powershell -NoProfile -Command "Start-Process -FilePath 'cmd.exe' -ArgumentList '/c', '(if not exist node_modules npm install) && npm run dev' -WindowStyle Hidden -WorkingDirectory '%FRONT%'"
 
 :: Esperar servidores subirem, abrir navegador em localhost:3001 e fechar esta janela

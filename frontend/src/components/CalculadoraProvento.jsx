@@ -1,32 +1,53 @@
 import React, { useState, useEffect } from 'react';
 import { calculoProventosAPI } from '../services/api';
 
-function CalculadoraProvento({ isOpen, onClose, onCalcular, tipoCalculo, salarioBase, jornadaMensal }) {
+function CalculadoraProvento({ isOpen, onClose, onCalcular, tipoCalculo, salarioBase, jornadaMensal, codigoEvento }) {
   const [tipo, setTipo] = useState('horas-extras');
   const [quantidadeHoras, setQuantidadeHoras] = useState('');
   const [adicional, setAdicional] = useState('0.50');
   const [periculosidade, setPericulosidade] = useState('');
+  const [adicionalNoturnoPericulosidade, setAdicionalNoturnoPericulosidade] = useState(false);
+  const [tipoCargo, setTipoCargo] = useState('OPERACAO');
   const [diasUteis, setDiasUteis] = useState('');
   const [domingosFeriados, setDomingosFeriados] = useState('');
   const [somaHE, setSomaHE] = useState('');
   const [horasFaltantes, setHorasFaltantes] = useState('');
+  const [horasADisposicao, setHorasADisposicao] = useState('');
   const [loading, setLoading] = useState(false);
   const [erro, setErro] = useState(null);
   const [resultado, setResultado] = useState(null);
 
   useEffect(() => {
     if (isOpen) {
+      const cod = codigoEvento !== undefined && codigoEvento !== null && codigoEvento !== '' ? Number(codigoEvento) : null;
+      const tipoPorEvento = {
+        1: 'hora-normal-diurna',
+        2: 'hora-normal-noturna',
+        35: 'horas-extras',
+        49: 'horas-extras',
+        59: 'dsr',
+        302: 'dsr',
+        64: 'periculosidade',
+        96: 'adicional-noturno',
+        1032: 'interjornada',
+        1033: 'tempo-a-disposicao',
+      };
+      setTipo(tipoPorEvento[cod] || 'horas-extras');
+      setLoading(false);
       setQuantidadeHoras('');
       setAdicional('0.50');
       setPericulosidade('');
+      setAdicionalNoturnoPericulosidade(false);
+      setTipoCargo('OPERACAO');
       setDiasUteis('');
       setDomingosFeriados('');
       setSomaHE('');
       setHorasFaltantes('');
+      setHorasADisposicao('');
       setResultado(null);
       setErro(null);
     }
-  }, [isOpen]);
+  }, [isOpen, codigoEvento]);
 
   const calcular = async () => {
     setLoading(true);
@@ -81,7 +102,9 @@ function CalculadoraProvento({ isOpen, onClose, onCalcular, tipoCalculo, salario
           response = await calculoProventosAPI.adicionalNoturno({
             salario_base: salario,
             jornada_mensal: jornada,
-            quantidade_horas: parseFloat(quantidadeHoras)
+            quantidade_horas: parseFloat(quantidadeHoras),
+            periculosidade: adicionalNoturnoPericulosidade,
+            tipo_cargo: tipoCargo
           });
           break;
 
@@ -111,14 +134,25 @@ function CalculadoraProvento({ isOpen, onClose, onCalcular, tipoCalculo, salario
           break;
 
         case 'interjornada':
-          if (!horasFaltantes || parseFloat(horasFaltantes) < 0) {
-            throw new Error('Informe as horas faltantes');
+          if (!horasFaltantes || parseFloat(horasFaltantes) <= 0) {
+            throw new Error('Informe as horas não descansadas (ex.: 26,25).');
           }
           response = await calculoProventosAPI.interjornada({
             salario_base: salario,
             jornada_mensal: jornada,
             horas_faltantes: parseFloat(horasFaltantes),
             adicional: parseFloat(adicional)
+          });
+          break;
+
+        case 'tempo-a-disposicao':
+          if (!horasADisposicao || parseFloat(horasADisposicao) <= 0) {
+            throw new Error('Informe as horas a disposição.');
+          }
+          response = await calculoProventosAPI.tempoADisposicao({
+            salario_base: salario,
+            jornada_mensal: jornada,
+            horas_a_disposicao: parseFloat(horasADisposicao)
           });
           break;
 
@@ -134,8 +168,11 @@ function CalculadoraProvento({ isOpen, onClose, onCalcular, tipoCalculo, salario
       }
     } catch (error) {
       setResultado(null);
+      const isTimeout = error.code === 'ECONNABORTED' || error.message?.includes('timeout');
       const detail = error.response?.data?.detail;
-      const msg = Array.isArray(detail) ? detail.map(d => (typeof d === 'object' && d?.msg) || d).join(', ') : (detail || error.message || 'Erro ao calcular');
+      const msg = isTimeout
+        ? 'Tempo esgotado. Verifique se o servidor está ativo e tente novamente.'
+        : (Array.isArray(detail) ? detail.map(d => (typeof d === 'object' && d?.msg) || d).join(', ') : (detail || error.message || 'Erro ao calcular'));
       setErro(msg);
     } finally {
       setLoading(false);
@@ -177,15 +214,16 @@ function CalculadoraProvento({ isOpen, onClose, onCalcular, tipoCalculo, salario
             <option value="horas-extras">Horas Extras</option>
             <option value="hora-normal-diurna">Hora Normal Diurna</option>
             <option value="hora-normal-noturna">Hora Normal Noturna</option>
-            <option value="adicional-noturno">Adicional Noturno (20%)</option>
-            <option value="dsr">DSR sobre Horas Extras</option>
+            <option value="adicional-noturno">Adicional Noturno (20% / 35%)</option>
+            <option value="dsr">DSR Sobre Horas Extras (Diurno / Noturno)</option>
             <option value="periculosidade">Periculosidade</option>
             <option value="interjornada">Interjornada</option>
+            <option value="tempo-a-disposicao">Tempo a disposição</option>
           </select>
         </div>
 
         {/* Campos comuns */}
-        {(tipo === 'horas-extras' || tipo === 'hora-normal-diurna' || tipo === 'hora-normal-noturna' || tipo === 'adicional-noturno' || tipo === 'interjornada') && (
+        {(tipo === 'horas-extras' || tipo === 'hora-normal-diurna' || tipo === 'hora-normal-noturna' || tipo === 'adicional-noturno' || tipo === 'interjornada' || tipo === 'tempo-a-disposicao') && (
           <>
             <div className="mb-4">
               <label className="block text-sm font-medium text-gray-700 mb-1">
@@ -300,20 +338,46 @@ function CalculadoraProvento({ isOpen, onClose, onCalcular, tipoCalculo, salario
 
         {/* Adicional Noturno */}
         {tipo === 'adicional-noturno' && (
-          <div className="mb-4">
-            <label className="block text-sm font-medium text-gray-700 mb-1">
-              Quantidade de Horas Noturnas (reduzidas)
-            </label>
-            <input
-              type="number"
-              step="0.01"
-              value={quantidadeHoras}
-              onChange={(e) => setQuantidadeHoras(e.target.value)}
-              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-redepetro-red focus:border-redepetro-red"
-              placeholder="0.00"
-            />
-            <p className="mt-1 text-xs text-gray-500">(Valor da Hora Normal × 20%) × Qtd Horas Noturnas</p>
-          </div>
+          <>
+            <div className="mb-4">
+              <label className="flex items-center gap-2 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={adicionalNoturnoPericulosidade}
+                  onChange={(e) => setAdicionalNoturnoPericulosidade(e.target.checked)}
+                  className="rounded border-gray-300 text-redepetro-red focus:ring-redepetro-red"
+                />
+                <span className="text-sm font-medium text-gray-700">Possui Periculosidade (30% na base)</span>
+              </label>
+            </div>
+            <div className="mb-4">
+              <label className="block text-sm font-medium text-gray-700 mb-1">
+                Tipo de Cargo
+              </label>
+              <select
+                value={tipoCargo}
+                onChange={(e) => setTipoCargo(e.target.value)}
+                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-redepetro-red focus:border-redepetro-red"
+              >
+                <option value="OPERACAO">Operação (20%)</option>
+                <option value="ADMINISTRATIVO">Administrativo (35%)</option>
+              </select>
+            </div>
+            <div className="mb-4">
+              <label className="block text-sm font-medium text-gray-700 mb-1">
+                Quantidade de Horas Noturnas (60 min)
+              </label>
+              <input
+                type="number"
+                step="0.01"
+                value={quantidadeHoras}
+                onChange={(e) => setQuantidadeHoras(e.target.value)}
+                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-redepetro-red focus:border-redepetro-red"
+                placeholder="0.00"
+              />
+              <p className="mt-1 text-xs text-gray-500">Base: Salário/Jornada; com periculosidade: +30%. Total = Valor/h × Qtd horas.</p>
+            </div>
+          </>
         )}
 
         {/* DSR */}
@@ -321,7 +385,7 @@ function CalculadoraProvento({ isOpen, onClose, onCalcular, tipoCalculo, salario
           <>
             <div className="mb-4">
               <label className="block text-sm font-medium text-gray-700 mb-1">
-                Soma das Horas Extras (R$)
+                Soma das Horas Extras / Adicional Noturno (R$)
               </label>
               <input
                 type="number"
@@ -382,19 +446,18 @@ function CalculadoraProvento({ isOpen, onClose, onCalcular, tipoCalculo, salario
           <>
             <div className="mb-4">
               <label className="block text-sm font-medium text-gray-700 mb-1">
-                Horas Faltantes (0 a 11h)
+                Horas não descansadas
               </label>
               <input
                 type="number"
                 step="0.01"
                 min="0"
-                max="11"
                 value={horasFaltantes}
                 onChange={(e) => setHorasFaltantes(e.target.value)}
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-redepetro-red focus:border-redepetro-red"
-                placeholder="Ex: 5 (horas que faltaram para 11h de descanso)"
+                placeholder="Ex: 26,25"
               />
-              <p className="mt-1 text-xs text-gray-500">Horas que faltaram para completar 11h de descanso entre jornadas.</p>
+              <p className="mt-1 text-xs text-gray-500">Informe o total de horas que não foram descansadas (ex.: 26,25).</p>
             </div>
             <div className="mb-4">
               <label className="block text-sm font-medium text-gray-700 mb-1">
@@ -412,6 +475,25 @@ function CalculadoraProvento({ isOpen, onClose, onCalcular, tipoCalculo, salario
           </>
         )}
 
+        {/* Tempo a disposição */}
+        {tipo === 'tempo-a-disposicao' && (
+          <div className="mb-4">
+            <label className="block text-sm font-medium text-gray-700 mb-1">
+              Horas a disposição
+            </label>
+            <input
+              type="number"
+              step="0.01"
+              min="0"
+              value={horasADisposicao}
+              onChange={(e) => setHorasADisposicao(e.target.value)}
+              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-redepetro-red focus:border-redepetro-red"
+              placeholder="Ex: 10"
+            />
+            <p className="mt-1 text-xs text-gray-500">Fórmula: (Salário base / Jornada) × Horas a disposição</p>
+          </div>
+        )}
+
         {/* Erro */}
         {erro && (
           <div className="mb-4 bg-red-50 border border-red-200 rounded-lg p-3">
@@ -425,7 +507,17 @@ function CalculadoraProvento({ isOpen, onClose, onCalcular, tipoCalculo, salario
             <p className="text-sm font-semibold text-green-800 mb-1">
               Valor Calculado: R$ {Number(resultado.valor_calculado).toFixed(2)}
             </p>
-            <p className="text-xs text-green-700">{resultado.detalhes ?? ''}</p>
+            {resultado.memoria_calculo ? (
+              <div className="text-xs text-green-700 space-y-0.5 mt-2 font-mono">
+                <p>Valor Hora: R$ {Number(resultado.memoria_calculo.valor_hora).toFixed(2)}</p>
+                <p>(+) 30% Periculosidade: R$ {Number(resultado.memoria_calculo.periculosidade_30).toFixed(2)}</p>
+                <p>(=) Base Adicional Noturno: R$ {Number(resultado.memoria_calculo.base_adicional).toFixed(2)}</p>
+                <p>(×) Alíquota ({resultado.memoria_calculo.aliquota_pct}%): R$ {Number(resultado.memoria_calculo.valor_adicional_hora).toFixed(2)} por hora.</p>
+                <p className="pt-1 border-t border-green-300 mt-1">Total: R$ {Number(resultado.valor_calculado).toFixed(2)} ({resultado.memoria_calculo.quantidade_horas} h)</p>
+              </div>
+            ) : (
+              <p className="text-xs text-green-700">{resultado.detalhes ?? ''}</p>
+            )}
           </div>
         )}
 

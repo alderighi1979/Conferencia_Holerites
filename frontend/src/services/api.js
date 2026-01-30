@@ -8,6 +8,7 @@ const api = axios.create({
   headers: {
     'Content-Type': 'application/json',
   },
+  timeout: 30000, // 30s - evita "Carregando..." travado; dá tempo ao backend responder
 });
 
 // INSS
@@ -60,6 +61,7 @@ export const calculoProventosAPI = {
   dsr: (data) => api.post('/api/calculo-proventos/dsr', data),
   periculosidade: (data) => api.post('/api/calculo-proventos/periculosidade', data),
   interjornada: (data) => api.post('/api/calculo-proventos/interjornada', data),
+  tempoADisposicao: (data) => api.post('/api/calculo-proventos/tempo-a-disposicao', data),
 };
 
 // Encerrar servidor (botão Sair)

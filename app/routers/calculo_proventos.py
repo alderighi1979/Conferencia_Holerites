@@ -7,7 +7,8 @@ from app.services.calculo_proventos_service import (
     calcular_adicional_noturno,
     calcular_dsr,
     calcular_periculosidade,
-    calcular_interjornada
+    calcular_interjornada,
+    calcular_tempo_a_disposicao
 )
 
 router = APIRouter(prefix="/api/calculo-proventos", tags=["Cálculo de Proventos CLT"])
@@ -87,18 +88,22 @@ def calcular_hora_noturna(request: schemas.CalculoHoraNormalNoturnaRequest):
 @router.post("/adicional-noturno", response_model=schemas.CalculoProventoResponse)
 def calcular_ad_noturno(request: schemas.CalculoAdicionalNoturnoRequest):
     """
-    Calcula adicional noturno (20%) — valor separado para conferência.
-    Fórmula: (Valor_da_Hora_Normal × 0,20) × Quantidade_Horas_Noturnas_Reduzidas
+    Calcula adicional noturno com base na hora comum (60 min).
+    VHN = Salário/Jornada; se periculosidade: base = VHN × 1,30.
+    Operação: 20%; Administrativo: 35%.
     """
     try:
-        valor, detalhes = calcular_adicional_noturno(
+        valor, detalhes, memoria_calculo = calcular_adicional_noturno(
             salario_base=request.salario_base,
             jornada_mensal=request.jornada_mensal,
-            quantidade_horas=request.quantidade_horas
+            quantidade_horas=request.quantidade_horas,
+            periculosidade=request.periculosidade,
+            tipo_cargo=request.tipo_cargo
         )
         return schemas.CalculoProventoResponse(
             valor_calculado=valor,
-            detalhes=detalhes
+            detalhes=detalhes,
+            memoria_calculo=memoria_calculo
         )
     except Exception as e:
         raise HTTPException(
@@ -172,4 +177,27 @@ def calcular_interj(request: schemas.CalculoInterjornadaRequest):
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
             detail=f"Erro ao calcular interjornada: {str(e)}"
+        )
+
+
+@router.post("/tempo-a-disposicao", response_model=schemas.CalculoProventoResponse)
+def calcular_tempo_disposicao(request: schemas.CalculoTempoADisposicaoRequest):
+    """
+    Calcula tempo a disposição.
+    Fórmula: (Salário base / Jornada) × Horas a disposição
+    """
+    try:
+        valor, detalhes = calcular_tempo_a_disposicao(
+            salario_base=request.salario_base,
+            jornada_mensal=request.jornada_mensal,
+            horas_a_disposicao=request.horas_a_disposicao
+        )
+        return schemas.CalculoProventoResponse(
+            valor_calculado=valor,
+            detalhes=detalhes
+        )
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail=f"Erro ao calcular tempo a disposição: {str(e)}"
         )
