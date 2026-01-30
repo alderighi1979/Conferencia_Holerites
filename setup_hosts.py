@@ -60,8 +60,8 @@ def main() -> int:
         return 0
     except PermissionError:
         print("[AVISO] conferencia.local nao foi adicionado ao hosts (falta permissao de admin).")
-        print("         O app abre em http://localhost:8080 normalmente.")
-        print("         Para usar http://conferencia.local:8080, adicione manualmente ao hosts:")
+        print("         O app abre em http://localhost:3001 normalmente.")
+        print("         Para usar http://conferencia.local:3001, adicione manualmente ao hosts:")
         print(f"         Arquivo: {HOSTS_PATH}")
         print(f"         Linha:   {ENTRY}")
         print("         (Bloco de Notas como Administrador -> Abrir -> drivers\\etc -> hosts)")

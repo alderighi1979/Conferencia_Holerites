@@ -26,7 +26,7 @@ OPÇÃO 1: USAR O EXECUTÁVEL (.EXE)
    - Uma janela preta (terminal) pode aparecer por um instante; em seguida o
      sistema sobe o servidor e abre o navegador na tela do sistema.
    - Se o navegador NÃO abrir sozinho, abra-o manualmente e digite na barra de endereço:
-     http://localhost:8000
+     http://localhost:8001
    - A primeira execução pode demorar alguns segundos.
 
 4. Onde os dados são guardados
@@ -63,7 +63,7 @@ rodando o ConferenciaFolha.exe e você acessa pelo navegador), você pode
    o endereço no navegador.
 
 Observação: para a instalação PWA funcionar, você precisa acessar o sistema
-pelo endereço que o servidor fornecer (por exemplo http://localhost:8000
+pelo endereço que o servidor fornecer (por exemplo http://localhost:8001
 quando o .exe está rodando na sua máquina).
 
 
@@ -71,7 +71,7 @@ quando o .exe está rodando na sua máquina).
 ACESSO PELA REDE LOCAL (OUTROS COMPUTADORES)
 --------------------------------------------------------------------------------
 
-O servidor escuta em 0.0.0.0 (porta 8000), então outros PCs na mesma rede podem
+O servidor escuta em 0.0.0.0 (porta 8001), então outros PCs na mesma rede podem
 acessar o sistema pelo IP da máquina onde o .exe está rodando.
 
 Como descobrir o IP da sua máquina (Windows):
@@ -82,14 +82,14 @@ Como descobrir o IP da sua máquina (Windows):
      sua conexão). O endereço IPv4 aparece assim:
        Endereço IPv4. . . . . . . . . . . : 192.168.1.100
   4. No outro computador, abra o navegador e digite:
-       http://192.168.1.100:8000
+       http://192.168.1.100:8001
      (substitua pelo IPv4 que apareceu no passo 3).
 
 Exemplo: se o IP for 192.168.0.50, no navegador do outro PC digite:
-  http://192.168.0.50:8000
+  http://192.168.0.50:8001
 
 Certifique-se de que o firewall do Windows (ou antivírus) permite conexões de
-entrada na porta 8000. Se necessário, crie uma regra para permitir o programa.
+entrada na porta 8001. Se necessário, crie uma regra para permitir o programa.
 
 
 --------------------------------------------------------------------------------
@@ -97,20 +97,20 @@ PROBLEMAS COMUNS
 --------------------------------------------------------------------------------
 
 - "O navegador não abriu"
-  Abra o navegador manualmente e acesse: http://localhost:8000
+  Abra o navegador manualmente e acesse: http://localhost:8001
 
 - "A página não carrega" / "Não é possível acessar este site"
   Confira se o ConferenciaFolha.exe ainda está em execução (janela preta ou
   processo no Gerenciador de Tarefas). Se tiver fechado, execute o .exe de novo.
-  Tente também: http://localhost:8000 ou http://127.0.0.1:8000
+  Tente também: http://localhost:8001 ou http://127.0.0.1:8001
 
 - "Permissão negada" ou erro ao gravar
   O .exe não precisa ser executado como administrador. Os dados são gravados
   em AppData (pasta do usuário). Se o erro continuar, execute o .exe a partir
   de uma pasta onde você tem permissão de gravação (ex.: Documentos).
 
-- Porta 8000 já em uso
-  Outro programa pode estar usando a porta 8000. Feche-o ou peça ao
+- Porta 8001 já em uso
+  Outro programa pode estar usando a porta 8001. Feche-o ou peça ao
   desenvolvedor uma versão que use outra porta.
 
 
@@ -120,10 +120,10 @@ RESUMO RÁPIDO (EXECUTÁVEL)
 
 1. Copie ConferenciaFolha.exe para uma pasta (ex.: Área de Trabalho).
 2. Dê duplo clique no .exe.
-3. Aguarde o navegador abrir (ou acesse http://localhost:8000).
+3. Aguarde o navegador abrir (ou acesse http://localhost:8001).
 4. Use o sistema normalmente.
 5. Para fechar: feche o navegador e a janela preta do programa.
-6. Para outros PCs na rede: use ipconfig para ver o IP e acesse http://[IP]:8000.
+6. Para outros PCs na rede: use ipconfig para ver o IP e acesse http://[IP]:8001.
 
 ================================================================================
   Dúvidas: entre em contato com o suporte ou o desenvolvedor do sistema.
