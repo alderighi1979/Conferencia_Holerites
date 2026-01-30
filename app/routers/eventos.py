@@ -31,8 +31,14 @@ def criar_evento(evento: schemas.Tabela_EventosCreate, db: Session = Depends(get
 @router.get("/", response_model=List[schemas.Tabela_EventosResponse])
 def listar_eventos(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     """Listar todos os eventos"""
-    eventos = db.query(Tabela_Eventos).offset(skip).limit(limit).all()
-    return eventos
+    try:
+        eventos = db.query(Tabela_Eventos).order_by(Tabela_Eventos.codigo_evento).offset(skip).limit(limit).all()
+        return eventos
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Erro ao listar eventos: {str(e)}",
+        )
 
 
 @router.get("/{codigo_evento}", response_model=schemas.Tabela_EventosResponse)

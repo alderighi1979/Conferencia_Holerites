@@ -1,6 +1,20 @@
-from pydantic import BaseModel, Field
-from typing import Optional
+from pydantic import BaseModel, Field, field_validator
+from typing import Optional, Any
 from app.models import TipoEventoEnum, IncidenciaEnum
+
+
+def _normalizar_incidencia(v: Any) -> IncidenciaEnum:
+    """Aceita 'S'/'I' (legado) e 'SOMA'/'DIMINUI'/'ISENTO', retorna IncidenciaEnum."""
+    if isinstance(v, IncidenciaEnum):
+        return v
+    s = (v or "").strip().upper()
+    if s in ("S", "SOMA"):
+        return IncidenciaEnum.SOMA
+    if s in ("I", "ISENTO"):
+        return IncidenciaEnum.ISENTO
+    if s == "DIMINUI":
+        return IncidenciaEnum.DIMINUI
+    return IncidenciaEnum.ISENTO
 
 
 # Schemas para Tabela_INSS
@@ -77,20 +91,35 @@ class Tabela_Config_SimplificadaResponse(Tabela_Config_SimplificadaBase):
         from_attributes = True
 
 
+# Campos de incidência para validadores
+_CAMPOS_INCIDENCIA = (
+    "inss_mensal", "fgts_mensal", "irrf_mensal",
+    "inss_13", "fgts_13", "irrf_13",
+    "inss_ferias", "fgts_ferias", "irrf_ferias",
+)
+
+
 # Schemas para Tabela_Eventos
 class Tabela_EventosBase(BaseModel):
     codigo_evento: int = Field(..., description="Código do evento (ID)")
     descricao: str = Field(..., max_length=255, description="Descrição do evento")
     tipo: TipoEventoEnum = Field(..., description="Tipo: Provento ou Desconto")
-    inss_mensal: IncidenciaEnum = Field(default=IncidenciaEnum.ISENTO, description="Incidência INSS Mensal (S/I)")
-    fgts_mensal: IncidenciaEnum = Field(default=IncidenciaEnum.ISENTO, description="Incidência FGTS Mensal (S/I)")
-    irrf_mensal: IncidenciaEnum = Field(default=IncidenciaEnum.ISENTO, description="Incidência IRRF Mensal (S/I)")
-    inss_13: IncidenciaEnum = Field(default=IncidenciaEnum.ISENTO, description="Incidência INSS 13º (S/I)")
-    fgts_13: IncidenciaEnum = Field(default=IncidenciaEnum.ISENTO, description="Incidência FGTS 13º (S/I)")
-    irrf_13: IncidenciaEnum = Field(default=IncidenciaEnum.ISENTO, description="Incidência IRRF 13º (S/I)")
-    inss_ferias: IncidenciaEnum = Field(default=IncidenciaEnum.ISENTO, description="Incidência INSS Férias (S/I)")
-    fgts_ferias: IncidenciaEnum = Field(default=IncidenciaEnum.ISENTO, description="Incidência FGTS Férias (S/I)")
-    irrf_ferias: IncidenciaEnum = Field(default=IncidenciaEnum.ISENTO, description="Incidência IRRF Férias (S/I)")
+    inss_mensal: IncidenciaEnum = Field(default=IncidenciaEnum.ISENTO, description="Incidência INSS Mensal: SOMA, DIMINUI ou ISENTO")
+    fgts_mensal: IncidenciaEnum = Field(default=IncidenciaEnum.ISENTO, description="Incidência FGTS Mensal")
+    irrf_mensal: IncidenciaEnum = Field(default=IncidenciaEnum.ISENTO, description="Incidência IRRF Mensal")
+    inss_13: IncidenciaEnum = Field(default=IncidenciaEnum.ISENTO, description="Incidência INSS 13º")
+    fgts_13: IncidenciaEnum = Field(default=IncidenciaEnum.ISENTO, description="Incidência FGTS 13º")
+    irrf_13: IncidenciaEnum = Field(default=IncidenciaEnum.ISENTO, description="Incidência IRRF 13º")
+    inss_ferias: IncidenciaEnum = Field(default=IncidenciaEnum.ISENTO, description="Incidência INSS Férias")
+    fgts_ferias: IncidenciaEnum = Field(default=IncidenciaEnum.ISENTO, description="Incidência FGTS Férias")
+    irrf_ferias: IncidenciaEnum = Field(default=IncidenciaEnum.ISENTO, description="Incidência IRRF Férias")
+
+    @field_validator(*_CAMPOS_INCIDENCIA, mode="before")
+    @classmethod
+    def normalizar_incidencia(cls, v: Any) -> IncidenciaEnum:
+        if v is None:
+            return IncidenciaEnum.ISENTO
+        return _normalizar_incidencia(v)
 
 
 class Tabela_EventosCreate(Tabela_EventosBase):
@@ -109,6 +138,13 @@ class Tabela_EventosUpdate(BaseModel):
     inss_ferias: Optional[IncidenciaEnum] = None
     fgts_ferias: Optional[IncidenciaEnum] = None
     irrf_ferias: Optional[IncidenciaEnum] = None
+
+    @field_validator(*_CAMPOS_INCIDENCIA, mode="before")
+    @classmethod
+    def normalizar_incidencia(cls, v: Any) -> Optional[IncidenciaEnum]:
+        if v is None:
+            return None
+        return _normalizar_incidencia(v)
 
 
 class Tabela_EventosResponse(Tabela_EventosBase):
@@ -182,7 +218,7 @@ class CalculoPericulosidadeRequest(BaseModel):
 class CalculoInterjornadaRequest(BaseModel):
     salario_base: float = Field(..., gt=0, description="Salário base do funcionário")
     jornada_mensal: float = Field(..., gt=0, description="Jornada mensal em horas (ex: 220)")
-    horas_descanso: float = Field(..., ge=0, le=11, description="Horas de descanso que faltaram para completar 11h")
+    horas_faltantes: float = Field(..., ge=0, le=11, description="Horas faltantes para completar 11h de descanso (0 a 11h)")
     adicional: float = Field(default=0.50, ge=0, description="Adicional percentual (0.50 para 50%, 0.80 para 80%)")
 
 

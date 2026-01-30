@@ -20,12 +20,14 @@ function TabIRRF() {
 
   const carregarFaixas = async () => {
     setLoading(true);
+    setErro(null);
     try {
       const response = await irrfAPI.getAll();
-      setFaixas(response.data);
+      setFaixas(Array.isArray(response.data) ? response.data : []);
     } catch (error) {
-      console.error('Erro ao carregar faixas:', error);
-      setErro('Erro ao carregar faixas de IRRF');
+      const msg = error.response?.data?.detail || error.message || 'Erro ao carregar faixas de IRRF';
+      console.error('Erro ao carregar faixas:', error, error.response?.data);
+      setErro(typeof msg === 'string' ? msg : JSON.stringify(msg));
     } finally {
       setLoading(false);
     }

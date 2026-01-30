@@ -62,4 +62,9 @@ export const calculoProventosAPI = {
   interjornada: (data) => api.post('/api/calculo-proventos/interjornada', data),
 };
 
+// Encerrar servidor (botão Sair)
+export const sairAPI = {
+  sair: () => api.post('/api/sair'),
+};
+
 export default api;

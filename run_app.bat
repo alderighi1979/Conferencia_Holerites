@@ -1,50 +1,32 @@
 @echo off
 chcp 65001 >nul
-title Conferência de Holerites - Iniciar
+title Conferência de Holerites
 
-:: Ir para a pasta do script (raiz do projeto)
 cd /d "%~dp0"
 
-:: Criar ambiente virtual se nao existir
+:: Ambiente virtual
 if not exist ".venv\Scripts\activate.bat" (
-    echo Ambiente virtual nao encontrado. Criando .venv...
+    echo Criando ambiente virtual...
     python -m venv .venv
     if errorlevel 1 (
-        echo [ERRO] Nao foi possivel criar o ambiente virtual.
-        echo Verifique se o Python esta instalado e no PATH.
+        echo [ERRO] Python nao encontrado ou falha ao criar venv.
         pause
         exit /b 1
     )
-    echo Ambiente virtual criado.
     call .venv\Scripts\activate
-    if exist "requirements.txt" (
-        echo Instalando dependencias...
-        pip install -r requirements.txt
-    )
-    echo.
+    if exist "requirements.txt" pip install -r requirements.txt
 ) else (
     call .venv\Scripts\activate
 )
 
-:: Iniciar backend (FastAPI) em uma nova janela
-echo Iniciando servidor FastAPI (backend)...
-start "Servidor FastAPI - Conferencia de Holerites" cmd /k "cd /d "%~dp0" && call .venv\Scripts\activate && echo Servidor API em execucao. Feche esta janela para encerrar. && echo. && uvicorn app.main:app --host 0.0.0.0 --port 8000"
+:: Inicia backend e frontend em janelas OCULTAS (nao exibe Vite nem FastAPI)
+:: WorkingDirectory garante que o banco (conferencia_folha.db) fique na pasta do projeto
+set "BASE=%~dp0"
+set "FRONT=%~dp0frontend"
+powershell -NoProfile -Command "Start-Process -FilePath 'cmd.exe' -ArgumentList '/c', 'call .venv\Scripts\activate.bat && uvicorn app.main:app --host 0.0.0.0 --port 8000' -WindowStyle Hidden -WorkingDirectory '%BASE%'"
+powershell -NoProfile -Command "Start-Process -FilePath 'cmd.exe' -ArgumentList '/c', '(if not exist node_modules npm install) && npm run dev' -WindowStyle Hidden -WorkingDirectory '%FRONT%'"
 
-:: Iniciar frontend (Vite/React) em uma nova janela
-echo Iniciando frontend (interface)...
-start "Frontend - Conferencia de Holerites" cmd /k "cd /d "%~dp0frontend" && (if not exist node_modules npm install) && npm run dev"
-
-:: Aguardar os servidores subirem
-timeout /t 5 /nobreak >nul
-
-:: Abrir o navegador na interface (frontend)
+:: Esperar servidores subirem, abrir navegador e fechar esta janela
+timeout /t 6 /nobreak >nul
 start "" "http://localhost:3000"
-
-echo.
-echo Navegador aberto em http://localhost:3000 (interface do sistema)
-echo.
-echo Para ENCERRAR o sistema, feche as duas janelas:
-echo   - Servidor FastAPI - Conferencia de Holerites
-echo   - Frontend - Conferencia de Holerites
-echo.
-pause
+exit

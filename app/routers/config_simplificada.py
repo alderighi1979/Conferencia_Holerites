@@ -21,8 +21,14 @@ def criar_config_simplificada(config: schemas.Tabela_Config_SimplificadaCreate, 
 @router.get("/", response_model=List[schemas.Tabela_Config_SimplificadaResponse])
 def listar_configs_simplificada(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     """Listar todas as configurações simplificadas"""
-    configs = db.query(Tabela_Config_Simplificada).offset(skip).limit(limit).all()
-    return configs
+    try:
+        configs = db.query(Tabela_Config_Simplificada).offset(skip).limit(limit).all()
+        return configs
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Erro ao listar configurações: {str(e)}",
+        )
 
 
 @router.get("/{config_id}", response_model=schemas.Tabela_Config_SimplificadaResponse)

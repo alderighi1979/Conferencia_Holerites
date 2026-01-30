@@ -25,14 +25,16 @@ def get_data_dir() -> str:
     """
     Diretório para dados persistentes (banco SQLite).
     Em executável: AppData do usuário para evitar 'permissão negada' em Program Files.
-    Em script: mesma pasta do executável/projeto.
+    Em script: diretório de trabalho atual (cwd), para funcionar com run_app.bat
+    que faz 'cd /d pasta_projeto' antes de iniciar o uvicorn.
     """
     if getattr(sys, "frozen", False):
         appdata = os.environ.get("APPDATA", os.path.expanduser("~"))
         data_dir = os.path.join(appdata, "ConferenciaFolha")
         os.makedirs(data_dir, exist_ok=True)
         return data_dir
-    return _get_base_path()
+    # Usar cwd para que run_app.bat (que faz cd para a pasta do projeto) use o mesmo banco
+    return os.path.abspath(os.getcwd())
 
 def get_static_dir() -> str:
     """

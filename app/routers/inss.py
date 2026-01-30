@@ -21,8 +21,14 @@ def criar_faixa_inss(faixa: schemas.Tabela_INSSCreate, db: Session = Depends(get
 @router.get("/", response_model=List[schemas.Tabela_INSSResponse])
 def listar_faixas_inss(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     """Listar todas as faixas de INSS"""
-    faixas = db.query(Tabela_INSS).offset(skip).limit(limit).all()
-    return faixas
+    try:
+        faixas = db.query(Tabela_INSS).order_by(Tabela_INSS.faixa_inicial).offset(skip).limit(limit).all()
+        return faixas
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Erro ao listar faixas de INSS: {str(e)}"
+        )
 
 
 @router.get("/{faixa_id}", response_model=schemas.Tabela_INSSResponse)

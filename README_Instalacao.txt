@@ -68,6 +68,31 @@ quando o .exe está rodando na sua máquina).
 
 
 --------------------------------------------------------------------------------
+ACESSO PELA REDE LOCAL (OUTROS COMPUTADORES)
+--------------------------------------------------------------------------------
+
+O servidor escuta em 0.0.0.0 (porta 8000), então outros PCs na mesma rede podem
+acessar o sistema pelo IP da máquina onde o .exe está rodando.
+
+Como descobrir o IP da sua máquina (Windows):
+
+  1. Abra o Prompt de Comando (cmd) ou o PowerShell.
+  2. Digite:  ipconfig
+  3. Procure o bloco "Adaptador de Rede sem Fio Wi-Fi" ou "Ethernet" (conforme
+     sua conexão). O endereço IPv4 aparece assim:
+       Endereço IPv4. . . . . . . . . . . : 192.168.1.100
+  4. No outro computador, abra o navegador e digite:
+       http://192.168.1.100:8000
+     (substitua pelo IPv4 que apareceu no passo 3).
+
+Exemplo: se o IP for 192.168.0.50, no navegador do outro PC digite:
+  http://192.168.0.50:8000
+
+Certifique-se de que o firewall do Windows (ou antivírus) permite conexões de
+entrada na porta 8000. Se necessário, crie uma regra para permitir o programa.
+
+
+--------------------------------------------------------------------------------
 PROBLEMAS COMUNS
 --------------------------------------------------------------------------------
 
@@ -77,6 +102,7 @@ PROBLEMAS COMUNS
 - "A página não carrega" / "Não é possível acessar este site"
   Confira se o ConferenciaFolha.exe ainda está em execução (janela preta ou
   processo no Gerenciador de Tarefas). Se tiver fechado, execute o .exe de novo.
+  Tente também: http://localhost:8000 ou http://127.0.0.1:8000
 
 - "Permissão negada" ou erro ao gravar
   O .exe não precisa ser executado como administrador. Os dados são gravados
@@ -84,9 +110,8 @@ PROBLEMAS COMUNS
   de uma pasta onde você tem permissão de gravação (ex.: Documentos).
 
 - Porta 8000 já em uso
-  Outro programa pode estar usando a porta 8000. Feche outros servidores ou
-  aplicativos que usem essa porta, ou peça ao desenvolvedor uma versão que
-  use outra porta.
+  Outro programa pode estar usando a porta 8000. Feche-o ou peça ao
+  desenvolvedor uma versão que use outra porta.
 
 
 --------------------------------------------------------------------------------
@@ -98,6 +123,7 @@ RESUMO RÁPIDO (EXECUTÁVEL)
 3. Aguarde o navegador abrir (ou acesse http://localhost:8000).
 4. Use o sistema normalmente.
 5. Para fechar: feche o navegador e a janela preta do programa.
+6. Para outros PCs na rede: use ipconfig para ver o IP e acesse http://[IP]:8000.
 
 ================================================================================
   Dúvidas: entre em contato com o suporte ou o desenvolvedor do sistema.

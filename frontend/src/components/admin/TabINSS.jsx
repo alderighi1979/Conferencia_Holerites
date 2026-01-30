@@ -19,12 +19,14 @@ function TabINSS() {
 
   const carregarFaixas = async () => {
     setLoading(true);
+    setErro(null);
     try {
       const response = await inssAPI.getAll();
-      setFaixas(response.data);
+      setFaixas(Array.isArray(response.data) ? response.data : []);
     } catch (error) {
       console.error('Erro ao carregar faixas:', error);
-      setErro('Erro ao carregar faixas de INSS');
+      const msg = error.response?.data?.detail || error.message || 'Erro ao carregar faixas de INSS';
+      setErro(typeof msg === 'string' ? msg : JSON.stringify(msg));
     } finally {
       setLoading(false);
     }

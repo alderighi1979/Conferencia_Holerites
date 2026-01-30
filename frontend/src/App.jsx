@@ -2,9 +2,32 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import CalculoFolha from './pages/CalculoFolha';
 import Administracao from './pages/Administracao';
+import { sairAPI } from './services/api';
 
 function App() {
   const [logoError, setLogoError] = useState(false);
+  const [saindo, setSaindo] = useState(false);
+
+  const handleSair = async () => {
+    if (saindo) return;
+    if (!window.confirm('Deseja encerrar o servidor e sair do sistema?')) return;
+    setSaindo(true);
+    try {
+      await sairAPI.sair();
+      window.close();
+      // Se o navegador não permitir fechar (ex.: aba aberta pelo usuário), avisa
+      setTimeout(() => {
+        alert('Servidor encerrado. Feche esta aba manualmente (Ctrl+W ou botão Fechar).');
+      }, 300);
+    } catch (err) {
+      window.close();
+      setTimeout(() => {
+        alert('Servidor encerrado ou não foi possível contactá-lo. Feche esta aba manualmente.');
+      }, 300);
+    } finally {
+      setSaindo(false);
+    }
+  };
 
   return (
     <Router>
@@ -46,6 +69,16 @@ function App() {
                     Administração
                   </Link>
                 </div>
+              </div>
+              <div className="flex items-center">
+                <button
+                  type="button"
+                  onClick={handleSair}
+                  disabled={saindo}
+                  className="px-4 py-2 rounded-md text-sm font-medium text-white bg-gray-600 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:opacity-50 transition-colors"
+                >
+                  {saindo ? 'Encerrando...' : 'Sair'}
+                </button>
               </div>
             </div>
           </div>

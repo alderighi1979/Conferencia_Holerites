@@ -10,8 +10,10 @@ class TipoEventoEnum(str, enum.Enum):
 
 
 class IncidenciaEnum(str, enum.Enum):
-    SIM = "S"
-    ISENTO = "I"
+    """SOMA: adiciona à base; DIMINUI: subtrai da base (ex.: faltas); ISENTO: não altera a base."""
+    SOMA = "SOMA"
+    DIMINUI = "DIMINUI"
+    ISENTO = "ISENTO"
 
 
 class Tabela_INSS(Base):

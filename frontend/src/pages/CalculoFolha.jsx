@@ -139,7 +139,7 @@ function CalculoFolha() {
   };
 
   return (
-    <div className="px-4 sm:px-6 lg:px-8">
+    <div className="px-4 sm:px-6 lg:px-8 max-w-[1400px] mx-auto">
       <div className="mb-6">
         <h1 className="text-3xl font-bold text-redepetro-red">Cálculo de Folha de Pagamento</h1>
         <p className="mt-2 text-sm text-gray-600">
@@ -158,8 +158,8 @@ function CalculoFolha() {
         setJornadaMensal={setJornadaMensal}
       />
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        <div className="lg:col-span-2">
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-6">
+        <div className="min-w-0">
           <GradeLancamentos
             eventos={eventos}
             setEventos={setEventos}
@@ -203,7 +203,7 @@ function CalculoFolha() {
           </div>
         </div>
 
-        <div className="lg:col-span-1">
+        <div className="min-w-0 lg:max-w-[280px]">
           <PainelResultados resultado={resultado} loading={loading} />
         </div>
       </div>

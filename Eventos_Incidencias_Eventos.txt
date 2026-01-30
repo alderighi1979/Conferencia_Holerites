@@ -1,0 +1,1425 @@
+
+
+ Folha de Pagamento                                            30/01/2026Pág:0
+                               Incidências Eventos
+ Evento                     Mensal              13º                Férias
+                    +-----------------------------------------------------------
+                    |INSIEMFGTSIRR PI  |INS IEMFGT IRRPI   |INSIEMFGTIRRPI   |co
+ -------------------------------------------------------------------------------
+ 1 Horas Normais Diu|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2 Horas Normais Not|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 3 Horas DSR Diurnas|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 4 Horas DSR Noturna|S   S  S  S   S   | S  S   S  S  S    |S  S  S  S  S    |I
+ 5 Horas Justificada|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 6 Horas Justificada|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 7 Horas Intra Jorna|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 8 Horas Intra Jorna|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 9 Horas Sobre Aviso|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 10 Horas Sobre Avis|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 11 Horas Aulas Diur|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 12 Horas Aulas Notu|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 13 DSR S/Horas Aula|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 14 DSR S/Horas Aula|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 15 Horas Serviço Mi|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 16 Horas Serviço Mi|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 17 Diferença de Sal|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 18 PLR Funcionários|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 19 Horas Lic.Médica|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 20 Horas Lic.Médica|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 21 Horas Mandato Si|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 22 Horas Mandato Si|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 23 Horas Faltas Diu|D   D  D  D   D   | I  I   I  I  I    |I  I  I  I  I    |I
+ 24 Horas Faltas Not|D   D  D  D   D   | I  I   I  I  I    |I  I  I  I  I    |I
+ 25 Horas Faltas DSR|D   D  D  D   D   | I  I   I  I  I    |I  I  I  I  I    |I
+ 26 Horas Faltas DSR|D   D  D  D   D   | I  I   I  I  I    |I  I  I  I  I    |I
+ 27 Horas Aula Diurn|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 28 DSR S/Horas Aula|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 29 Horas Aulas Notu|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 30 DSR S/Horas Aula|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 31 Horas Lic.Remune|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 32 Horas Lic.Remune|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 33 Saldo de Salário|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 34 Saldo de Salário|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 35 Horas Extras 50%|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 36 Horas Extras 50%|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 37 Horas Extras 60%|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 38 Horas Extras 60%|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 39 Horas Extras 65%|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 40 Horas Extras 65%|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 41 Horas Extras 70%|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 42 Horas Extras 70%|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 43 Horas Extras 80%|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 44 Horas Extras 80%|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 45 Horas Extras 85%|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 46 Horas Extras 85%|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 47 Horas Extras 90%|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 48 Horas Extras 90%|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 49 Horas Extras 100|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 50 Horas Extras 100|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 51 Horas Extras 120|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 52 Horas Extras 120|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 53 Horas Aviso Prév|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 54 Horas Aviso Prév|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 55 Media Comissões/|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 56 Med.Hrs.Ext.Lice|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+
+
+ Folha de Pagamento                                            30/01/2026Pág:0
+                               Incidências Eventos
+ Evento                     Mensal              13º                Férias
+                    +-----------------------------------------------------------
+                    |INSIEMFGTSIRR PI  |INS IEMFGT IRRPI   |INSIEMFGTIRRPI   |co
+ -------------------------------------------------------------------------------
+ 57 Med.Hrs.Ext.Lice|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 58 Horas Faltas Diu|D   D  D  D   D   | I  I   I  I  I    |I  I  I  I  I    |I
+ 59 DSR S/Horas Extr|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 60 DSR S/Horas Extr|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 61 Horas Extras 75%|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 62 Insalubridade S/|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 63 Vales Extras    |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 64 Periculosidade  |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 65 Insalubridade S/|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 66 Quebra de Caixa |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 67 Adicional Especí|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 68 Assiduidade     |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 69 Insalubridade S/|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 70 Anuênio         |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 71 Vale Transporte |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 72 Biênio          |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 73 Falta Estoque   |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 74 Triênio         |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 75 Cesta Básica Pro|I   I  I  I   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 76 Quadriênio      |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 77 Cesta Básica Des|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 78 Quinquênio      |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 79 Auxílio Creche  |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 80 Adiantamento Sal|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 81 Adicional Comerc|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 82 Gratificação de |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 83 Salário In-Natur|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 84 Antecipação Sala|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 85 Pro-Labore      |S   S  I  S   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 86 Distribuição de |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 87 Med.Hrs.Trabalha|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 88 Acumulo de Funçã|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 89 Med.Hrs.Trabalha|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 90 Comissões       |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 91 DSR S/Comissões |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 92 Garantia Comissi|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 93 Med.Hrs.Trab.Not|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 94 Transferência de|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 95 PIS Pago em Folh|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 96 Adicional Noturn|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 97 Diferença de Cai|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 98 Prêmios         |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 99 Adicional de Cai|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 100 Hora Extra Valo|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 101 Dsr Valor      |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 102 Auxilio Creche |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 103 Auxilio Aliment|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 104 Acumulo de Funç|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 105 Auxilio Aliment|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 106 Ajudas de Custo|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 107 Gratificação de|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 108 Reembolso      |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 109 Med.Hrs.Trabalh|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 110 Horas Lic.Mater|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 111 Horas Lic.Mater|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 112 Insal.S/Sal.Min|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+
+
+ Folha de Pagamento                                            30/01/2026Pág:0
+                               Incidências Eventos
+ Evento                     Mensal              13º                Férias
+                    +-----------------------------------------------------------
+                    |INSIEMFGTSIRR PI  |INS IEMFGT IRRPI   |INSIEMFGTIRRPI   |co
+ -------------------------------------------------------------------------------
+ 113 Insal.S/Sal.Bas|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 114 Insal.S/Sal.Nor|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 115 Periculosidade |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 116 Adicional Notur|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 117 Transf.de Filia|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 118 Quebra de Caixa|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 119 Adic.Especifico|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 120 Med.Hrs.Ext.Lic|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 121 Med.Hrs.Ext.Not|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 122 Med.Eve.Var.Lic|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 123 Horas Aula Diur|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 124 Med.Hrs.Aulas N|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 125 Assiduidade Lic|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 126 Med.Comissoes/D|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 127 Gratificação Go|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 128 Anuenio Lic.Mat|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 129 Bienio Lic.Mate|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 130 Diárias até 50%|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 131 Trienio Lic.Mat|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 132 Diárias Superio|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 133 Quadrienio Lic.|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 134 Quinquenio Lic.|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 135 Ajudas de Custo|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 136 DSR Saldo de Sa|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 137 DSR S/ Hrs.Aula|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 138 13o Salário Mat|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 139 Média Comissões|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 140 Insal.S/Sal.Min|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 141 Insal.S/Sal.Nor|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 142 Insal.S/Sal.Bas|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 143 Periculosidade |I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 144 Adicional Notur|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 145 Transf.de Filia|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 146 Quebra de Caixa|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 147 Adic.Especifico|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 148 Med.Eve.Var.13o|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 149 Assiduidade 13o|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 150 Salário Família|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 151 Med.Hrs.Ext.Diu|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 152 Med.Hrs.Ext.Not|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 153 Med.Hrs.Aulas D|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 154 Med.Hrs.Aula No|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 155 Gratificação Go|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 156 Anuenio 13o Sal|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 157 Bienio 13o Sal.|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 158 Trienio 13o Sal|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 159 Quadrienio 13o |I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 160 Quinquenio 13o |I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 161 Estouro do Mês |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 162 13o Salário Com|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 163 Estouro do Mês |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 164 13o Salário Com|D   D  D  I   D   | I  I   I  I  I    |I  I  I  I  I    |I
+ 165 Troco do Mês An|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 166 Auxilio Creche |I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 167 Troco do Mês   |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 168 Horas Lic.Mater|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+
+
+ Folha de Pagamento                                            30/01/2026Pág:0
+                               Incidências Eventos
+ Evento                     Mensal              13º                Férias
+                    +-----------------------------------------------------------
+                    |INSIEMFGTSIRR PI  |INS IEMFGT IRRPI   |INSIEMFGTIRRPI   |co
+ -------------------------------------------------------------------------------
+ 169 Horas Lic.Mater|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 170 Insal.S/Sal.Min|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 171 Assiduidade S/L|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 172 Periculosidade |I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 173 Insal.S/Sal.Bas|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 174 Adicional Notur|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 175 Transf.de Filia|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 176 Quebra de Caixa|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 177 Adic.Espec.Lic.|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 178 Med.Hrs.Ext.Lic|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 179 Insal.S/Sal.Nor|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 180 Med.Hrs.Ext.Lic|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 181 Media Comissões|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 182 Med.Eve.Var.Lic|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 183 Media Horas Aul|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 184 Anuênio Lic.Mat|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 185 Gratificacao Go|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 186 Biênio Lic.Mate|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 187 Media Horas Aul|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 188 Triênio Lic.Mat|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 189 Multa de Transi|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 190 Quadriênio Lic.|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 191 Diaria de Viage|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 192 Quinquênio Lic.|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 193 Auxilio Creche |I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 194 Auxilio Creche |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 195 Salario Familia|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 196 Med.Hrs.Trabalh|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 197 Med.Hrs.Trabalh|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 198 Med.Hrs.Tra.Diu|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 199 Med.Hrs.Trabalh|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 200 Horas Auxílio D|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 201 Horas Auxílio D|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 202 Insal.S/Sal.Min|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 203 Insal.S/Sal.Bas|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 204 Periculosidade |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 205 Insal.S/Sal.Nor|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 206 Adicional Notur|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 207 Transf.de Filia|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 208 Quebra de Caixa|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 209 Adic.Espec.Auxí|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 210 Med.Hrs.Ext.Aux|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 211 Média Horas Aul|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 212 Med.Hrs.Ext.Aux|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 213 Media Comissões|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 214 Med.Eve.Var.Aux|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 215 Gratificacao Go|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 216 Anuênio Auxílio|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 217 Assiduidades Au|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 218 Biênio Auxílio |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 219 Média Horas Aul|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 220 Triênio Auxílio|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 221 Auxilio Creche |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 222 Quadriênio Auxí|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 223 Auxilio Creche |I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 224 Quinquênio Auxí|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+
+
+ Folha de Pagamento                                            30/01/2026Pág:0
+                               Incidências Eventos
+ Evento                     Mensal              13º                Férias
+                    +-----------------------------------------------------------
+                    |INSIEMFGTSIRR PI  |INS IEMFGT IRRPI   |INSIEMFGTIRRPI   |co
+ -------------------------------------------------------------------------------
+ 225 Med.Hrs.Trabalh|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 226 Med.Hrs.Trabalh|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 227 Média Horas Aul|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 228 Média Horas Aul|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 229 Media Comissoes|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 230 Horas Acidente |I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 231 Horas Acidente |I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 232 Insal.S/Sal.Min|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 233 Assiduidade Aci|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 234 Periculosidade |I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 235 Insal.S/Sal.Bas|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 236 Adicional Notur|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 237 Transf.de Filia|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 238 Quebra de Caixa|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 239 Adic.Espec.Acid|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 240 Med.Hrs.Ext.Aci|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 241 Gratificacao Go|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 242 Med.Hrs.Ext.Aci|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 243 Insal.S/Sal.Nor|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 244 Med.Eve.Var.Aci|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 245 Anuênio Acident|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 246 Biênio Acidente|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 247 Triênio Acident|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 248 Quadriênio Acid|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 249 Quinquênio Acid|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 250 1º Parcela 13o |I   I  I  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 251 Media Comissoes|I   I  I  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 252 Insal.S/Sal.Min|I   I  S  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 253 Assiduidade 13o|I   I  S  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 254 Periculosidade |I   I  S  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 255 Insal.S/Sal.Bas|I   I  S  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 256 Adicional Notur|I   I  S  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 257 Gratificacao Go|I   I  S  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 258 Med.Hrs.Ext.13o|I   I  I  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 259 Insal.S/Sal.Nor|I   I  S  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 260 Med.Hrs.Ext.13o|I   I  S  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 261 Transf.de Filia|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 262 Med.Eve.Var.13o|I   I  S  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 263 Quebra de Caixa|I   I  S  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 264 Anuênio 13o Sal|I   I  S  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 265 Adic.Espec. 13o|I   I  S  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 266 Biênio 13o Sal.|I   I  S  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 267 Média Horas Aul|I   I  S  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 268 Triênio 13o Sal|I   I  S  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 269 Média Horas Aul|I   I  S  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 270 Quadriênio 13o |I   I  S  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 271 Med.Hrs.Trabalh|I   I  S  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 272 Quinquênio 13o |I   I  S  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 273 Auxilio Creche |I   I  I  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 274 Med.Hrs.Trabalh|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 275 Med.Hrs.Trabalh|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 276 Med.Hrs.Trabalh|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 277 Média Horas Aul|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 278 Média Horas Aul|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 279 Media Comissoes|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 280 2º Parcela 13o |I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+
+
+ Folha de Pagamento                                            30/01/2026Pág:0
+                               Incidências Eventos
+ Evento                     Mensal              13º                Férias
+                    +-----------------------------------------------------------
+                    |INSIEMFGTSIRR PI  |INS IEMFGT IRRPI   |INSIEMFGTIRRPI   |co
+ -------------------------------------------------------------------------------
+ 281 Assiduidade 13o|S   S  S  S   S   | S  S   S  S  S    |I  I  I  I  I    |I
+ 282 Med.Hrs.Ext.13o|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 283 Insal.S/Sal.Nor|S   S  S  S   S   | S  S   S  S  S    |I  I  I  I  I    |I
+ 284 Med.Hrs.Ext.13o|S   S  S  S   S   | S  S   S  S  S    |I  I  I  I  I    |I
+ 285 Insal.S/Sal.Bas|S   S  S  S   S   | S  S   S  S  S    |I  I  I  I  I    |I
+ 286 Med.Eve.Var.13o|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 287 Transf.de Filia|S   S  S  S   S   | S  S   S  S  S    |I  I  I  I  I    |I
+ 288 Insal.S/Sal.Min|S   S  S  S   S   | S  S   S  S  S    |I  I  I  I  I    |I
+ 289 Adic.Espec.13o |S   S  S  S   S   | S  S   S  S  S    |I  I  I  I  I    |I
+ 290 Periculosidade |I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 291 Quebra de Caixa|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 292 Adicional Notur|S   S  S  S   S   | S  S   S  S  S    |I  I  I  I  I    |I
+ 293 Anuênio 13o Sal|S   S  S  S   S   | S  S   S  S  S    |I  I  I  I  I    |I
+ 294 Biênio 13o Sal.|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 295 Triênio 13o Sal|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 296 Quadriênio 13o |S   S  S  S   S   | S  S   S  S  S    |I  I  I  I  I    |I
+ 297 Quinquênio 13o |S   S  S  S   S   | S  S   S  S  S    |I  I  I  I  I    |I
+ 298 Gratificacao Go|S   S  S  S   S   | S  S   S  S  S    |I  I  I  I  I    |I
+ 299 Desconto 13o Sa|I   I  I  I   I   | I  I   D  I  I    |I  I  I  I  I    |I
+ 300 Auxilio Creche |I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 301 Med.Hrs.Trabalh|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 302 Dsr S/ Adiciona|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 303 Med.Hrs.Trabalh|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 304 Med.Hrs.Trabalh|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 305 Med.Hrs.Trabalh|S   S  S  S   S   | S  S   S  S  S    |I  I  I  I  I    |I
+ 306 Med.Hrs.Trabalh|S   S  S  S   S   | S  S   S  I  I    |I  I  I  I  I    |I
+ 307 Med.Hrs.Trabalh|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 308 Med.Hrs.Trab.Di|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 309 Med.Hrs.Trabalh|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 310 13o Salário Com|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 311 Med.Hrs.Trabalh|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 312 13o Salário Com|D   D  D  D   D   | I  I   I  I  I    |I  I  I  I  I    |I
+ 313 Med.Hrs.Trabalh|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 314 Med.Hrs.Trabalh|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 315 Med.Hrs.Trabalh|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 316 Med.Hrs.Trabalh|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 317 Med.Hrs.Trabalh|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 318 Med.Hrs.Trabalh|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 319 Med.Hrs.Tra.Diu|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 320 13o Salário Mat|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 321 Media Comissoes|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 322 Insal.S/Sal.Min|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 323 Insal.S/Sal.Nor|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 324 Periculosidade |I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 325 Insal.S/Sal.Bas|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 326 Adicional Notur|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 327 Transf.de Filia|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 328 Quebra de Caixa|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 329 Adic.Espec.13o |I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 330 Med.Eve.Var.13o|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 331 Assiduidade 13o|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 332 Med.Hrs.Ext.13o|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 333 Média Horas Aul|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 334 Med.Hrs.Ext.13o|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 335 Gratificacao Go|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 336 Anuênio 13o Sal|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+
+
+ Folha de Pagamento                                            30/01/2026Pág:0
+                               Incidências Eventos
+ Evento                     Mensal              13º                Férias
+                    +-----------------------------------------------------------
+                    |INSIEMFGTSIRR PI  |INS IEMFGT IRRPI   |INSIEMFGTIRRPI   |co
+ -------------------------------------------------------------------------------
+ 337 Média Horas Aul|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 338 Biênio 13o Sal.|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 339 Auxilio Creche |I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 340 Triênio 13o Sal|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 341 13o Salário Com|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 342 Quadriênio 13o |I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 343 13o Salário Com|D   D  D  I   D   | I  I   I  I  I    |I  I  I  I  I    |I
+ 344 Quinquênio 13o |I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 345 FGTS 13o Salári|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 346 Med.Hrs.Trabalh|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 347 Med.Hrs.Trabalh|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 348 13o Salário Com|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 349 13o Salário Com|I   D  D  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 350 Folha Complemen|S   S  S  I   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 351 Med.Hrs.Trabalh|I   I  I  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 352 Folha Complemen|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 353 Med.Hrs.Trabalh|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 354 Med.Hrs.Trabalh|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 355 Med.Hrs.Trabalh|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 356 Med.Hrs.Trabalh|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 357 Media Comissoes|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 358 Horas Férias Di|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 359 Horas Férias No|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 360 Med.Hrs.Ext.S/F|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 361 Média Horas Aul|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 362 Med.Hrs.Ext.S/F|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 363 Assiduidade Fer|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 364 Med.Eve.Var.S/F|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 365 Insal.S/Sal.Bas|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 366 Insal.S/Sal.Min|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 367 Insal.S/Sal.Nor|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 368 Periculosidade |I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 369 Gratificacao Go|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 370 Adicional Notur|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 371 Transf.Filial S|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 372 Quebra de Caixa|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 373 Adic.Espec.S/Fé|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 374 Anuênio S/Féria|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 375 Média Horas Aul|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 376 Biênio S/Férias|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 377 Plantão Telefôn|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 378 Triênio S/Féria|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 379 Med.Hrs.Trabalh|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 380 Quadriênio S/Fé|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 381 Med.Hrs.Trabalh|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 382 Quinquênio S/Fé|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 383 Auxilio Creche |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 384 Troco Férias   |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 385 Horas Recesso E|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 386 1/3 Sobre Féria|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 387 Horas Recesso E|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 388 Diferença de Fé|S   S  S  I   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 389 Multa Dobro de |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 390 Horas Abono Pec|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 391 Horas Abono Pec|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 392 Med.Eve.Var.Abo|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+
+
+ Folha de Pagamento                                            30/01/2026Pág:0
+                               Incidências Eventos
+ Evento                     Mensal              13º                Férias
+                    +-----------------------------------------------------------
+                    |INSIEMFGTSIRR PI  |INS IEMFGT IRRPI   |INSIEMFGTIRRPI   |co
+ -------------------------------------------------------------------------------
+ 393 Media Comissoes|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 394 Med.Hrs.Ext.Abo|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 395 Assiduidade Abo|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 396 Med.Hrs.Ext.Abo|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 397 Gratificacao Go|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 398 Insal.S/Sal.Min|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 399 Insal.S/Sal.Bas|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 400 Periculosidade |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 401 Insal.S/Sal.Nor|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 402 Adicional Notur|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 403 Transf.de Filia|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 404 Quebra de Caixa|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 405 Adic.Espec.Abon|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 406 Anuênio Abono P|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 407 Média Horas Aul|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 408 Biênio Abono Pe|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 409 Média Horas Aul|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 410 Triênio Abono P|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 411 ATS S/ Férias  |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 412 Quadriênio Abon|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 413 Acumulo de Funç|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 414 Quinquênio Abon|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 415 Horas Extras 35|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 416 1/3 Abono Pecun|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 417 Feriado        |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 418 Diferença Abono|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 419 Auxilio Creche |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 420 Multa Dobro Abo|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 421 13o Salário Lic|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 422 Média Comissões|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 423 Insal.S/Sal.Min|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 424 Insal.S/Sal.Nor|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 425 Insal.S/Sal.Bas|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 426 Periculosidade |I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 427 Adicional Notur|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 428 Transf.de Filia|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 429 Quebra de Caixa|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 430 Adic.Especifico|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 431 Med.Hrs.Ext.Diu|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 432 Med.Hrs.Ext.Not|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 433 Med.Hrs.Aulas D|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 434 Med.Hrs.Aulas N|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 435 Assiduidade 13o|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 436 Gratificação Go|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 437 Med.Eve.Var.13o|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 438 Anuênio 13o Sal|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 439 Biênio 13o Sal.|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 440 Trienio 13o Sal|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 441 Quadrienio 13o |I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 442 Quinquenio 13o |I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 443 Auxilio Creche |I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 444 Med.Hrs.Trabalh|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 445 1/3 S/Férias Pa|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 446 Med.Hrs.Trabalh|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 447 Med.Hrs.Trabalh|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 448 Aviso Prévio In|I   I  S  I   S   | I  I   I  I  I    |I  I  I  I  I    |I
+
+
+ Folha de Pagamento                                            30/01/2026Pág:0
+                               Incidências Eventos
+ Evento                     Mensal              13º                Férias
+                    +-----------------------------------------------------------
+                    |INSIEMFGTSIRR PI  |INS IEMFGT IRRPI   |INSIEMFGTIRRPI   |co
+ -------------------------------------------------------------------------------
+ 449 Aviso Prévio In|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 450 Insal.S/Sal.Min|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 451 Media Comissoes|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 452 Periculosidade |I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 453 Insal.S/Sal.Bas|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 454 Adicional Notur|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 455 Transf.de Filia|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 456 Quebra de Caixa|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 457 Adic.Espec. A.P|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 458 Med.Hrs.Ext.Diu|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 459 Insal.S/Sal.Nor|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 460 Med.Hrs.Ext.Not|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 461 Assiduidade A.P|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 462 Med.Eve.Var.A.P|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 463 Gratificação Go|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 464 Anuênio A.P.I. |I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 465 Média Horas Aul|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 466 Biênio A.P.I.  |I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 467 Média Horas Aul|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 468 Triênio A.P.I. |I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 469 Med.Hrs.Trabalh|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 470 Quadriênio A.P.|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 471 Taxa Assistenci|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 472 Quinquênio A.P.|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 473 Auxilio Creche |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 474 Falta Valor    |D   D  D  D   D   | I  I   I  I  I    |I  I  I  I  I    |I
+ 475 DSR Indenizado |I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 476 Dsr Faltas em V|D   D  D  D   D   | I  I   I  I  I    |I  I  I  I  I    |I
+ 477 Abono Especial |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 478 Aviso Prévio Re|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 479 Aviso Prévio Re|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 480 Insal.S/Sal.Min|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 481 Media Comissoes|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 482 Periculosidade |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 483 Insal.S/Sal.Bas|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 484 Adicional Notur|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 485 Transf.de Filia|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 486 Quebra de Caixa|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 487 Adic.Espec. A.P|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 488 Med.Hrs.Ext.Diu|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 489 Insal.S/Sal.Nor|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 490 Med.Hrs.Ext.Not|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 491 Assiduidade A.P|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 492 Med.Eve.Var. A.|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 493 Gratificacao Go|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 494 Anuênio A.P.R. |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 495 Média Horas Aul|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 496 Biênio A.P.R.  |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 497 Média Horas Aul|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 498 Triênio A.P.R. |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 499 Férias Antecipa|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 500 Quadriênio A.P.|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 501 Auxilio Creche |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 502 Quinquênio A.P.|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 503 Hora Deslocamen|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 504 PLR Funcionário|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |S
+
+
+ Folha de Pagamento                                            30/01/2026Pág:0
+                               Incidências Eventos
+ Evento                     Mensal              13º                Férias
+                    +-----------------------------------------------------------
+                    |INSIEMFGTSIRR PI  |INS IEMFGT IRRPI   |INSIEMFGTIRRPI   |co
+ -------------------------------------------------------------------------------
+ 505 Med.Hrs.Trabalh|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 506 Med.Hrs.Trabalh|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 507 Med.Hrs.Trabalh|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 508 Med.Hrs.Trabalh|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 509 Med.Hrs.Trabalh|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 510 13o Salário Pro|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 511 Media Comissoes|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 512 Insal.S/Sal.Min|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 513 Insal.S/Sal.Nor|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 514 Periculosidade |I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 515 Insal.S/Sal.Bas|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 516 Adicional Notur|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 517 Transf.de Filia|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 518 Quebra de Caixa|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 519 Adic.Espec.13o |I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 520 Med.Hrs.Ext.Diu|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 521 Média Horas Aul|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 522 Med.Hrs.Ext.Not|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 523 Gratificacao Go|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 524 Med.Eve.Var.13o|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 525 Assiduidade 13o|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 526 Anuênio 13o Sal|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 527 Média Horas Aul|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 528 Biênio 13o Sal.|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 529 Med.Hrs.Trabalh|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 530 Triênio 13o Sal|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 531 Med.Hrs.Trabalh|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 532 Quadriênio 13o |I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 533 Med.Hrs.Trabalh|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 534 Quinquênio 13o |I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 535 Auxilio Creche |I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 536 Med.Hrs.Traba.N|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 537 Med.Hrs.Traba.N|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 538 Auxilio ao Depe|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 539 Comissões S/ Fa|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 540 13o Salário Ind|I   I  I  I   I   | S  S   S  S  I    |I  I  I  I  I    |I
+ 541 Media Comissoes|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 542 Insal.S/Sal.Min|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 543 Gratificacao Go|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 544 Periculosidade |I   I  I  I   I   | S  S   S  S  I    |I  I  I  I  I    |I
+ 545 Insal.S/Sal.Bas|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 546 Adicional Notur|I   I  I  I   I   | S  S   S  S  I    |I  I  I  I  I    |I
+ 547 Transf.de Filia|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 548 Quebra de Caixa|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 549 Adic.Espec. 13o|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 550 Med.Hrs.Ext.Diu|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 551 Insal.S/Sal.Nor|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 552 Med.Hrs.Ext.Not|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 553 Média Horas Aul|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 554 Med.Eve.Var. 13|I   I  I  I   I   | S  I   S  S  I    |I  I  I  I  I    |I
+ 555 Assiduidade 13o|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 556 Anuênio 13o Sal|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 557 Médias Horas Au|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 558 Biênio 13o Sal.|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 559 Adicional de Ca|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 560 Triênio 13o Sal|I   I  I  I   I   | S  S   S  S  I    |I  I  I  I  I    |I
+
+
+ Folha de Pagamento                                            30/01/2026Pág:0
+                               Incidências Eventos
+ Evento                     Mensal              13º                Férias
+                    +-----------------------------------------------------------
+                    |INSIEMFGTSIRR PI  |INS IEMFGT IRRPI   |INSIEMFGTIRRPI   |co
+ -------------------------------------------------------------------------------
+ 561 Adicional de Ca|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 562 Quadriênio 13o |I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 563 Adicional Caixa|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 564 Quinquênio 13o |I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 565 Auxilio Creche |I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 566 Adicional Caixa|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 567 Quebra de Caixa|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 568 Fim Contrato An|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 569 Fim Contrato An|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 570 Insal.S/Sal.Min|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 571 Media Comissoes|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 572 Periculosidade |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 573 Insal.S/Sal.Bas|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 574 Adicional Notur|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 575 Transf.de Filia|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 576 Quebra de Caixa|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 577 Insal.S/Sal.Nor|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 578 Med.Hrs.Ext.Diu|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 579 Adic.Espec.Fim |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 580 Med.Hrs.Ext.Not|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 581 Média Horas Aul|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 582 Med.Eve.Var.Fim|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 583 Gratificacao Go|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 584 Assiduidade Fim|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 585 Média Horas Aul|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 586 Auxilio Creche |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 587 Adicional de Ca|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 588 Fim Contrato An|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 589 Fim Contrato An|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 590 Insal.S/Sal.Min|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 591 Media Comissoes|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 592 Periculosidade |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 593 Insal.S/Sal.Bas|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 594 Adicional Notur|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 595 Transf.de Filia|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 596 Quebra de Caixa|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 597 Adic.Espec. Fim|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 598 Med.Hrs.Ext.Diu|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 599 Insal.S/Sal.Nor|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 600 Med.Hrs.Ext.Not|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 601 Média Horas Aul|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 602 Med.Eve.Var.Fim|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 603 Gratificacao Go|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 604 Assiduidade Fim|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 605 Média Horas Aul|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 606 Auxilio Creche |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 607 Auxilio Creche |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 608 Média Horas Aul|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 609 Média Horas Aul|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 610 13o Salário Mat|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 611 Media Comissoes|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 612 Insal.S/Sal.Min|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 613 Insal.S/Sal.Nor|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 614 Periculosidade |I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 615 Insal.S/Sal.Bas|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 616 Adicional Notur|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+
+
+ Folha de Pagamento                                            30/01/2026Pág:0
+                               Incidências Eventos
+ Evento                     Mensal              13º                Férias
+                    +-----------------------------------------------------------
+                    |INSIEMFGTSIRR PI  |INS IEMFGT IRRPI   |INSIEMFGTIRRPI   |co
+ -------------------------------------------------------------------------------
+ 617 Transf.de Filia|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 618 Quebra de Caixa|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 619 Adic.Espec.13o |I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 620 Med.Hrs.Ext.Diu|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 621 Assiduidade 13o|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 622 Med.Hrs.Ext.Not|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 623 Gratificacao Go|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 624 Med.Eve.Var. 13|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 625 Anuênio 13o Sal|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 626 Biênio 13o Sal.|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 627 Triênio 13o Sal|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 628 Quadriênio 13o |I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 629 Quinquênio 13o |I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 630 Horas Férias Ve|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 631 Horas Férias Ve|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 632 Insal.S/Sal.Min|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 633 Periculosidade |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 634 Adicional Notur|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 635 Transf.de Filia|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 636 Quebra de Caixa|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 637 Adic.Espec.S/Fé|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 638 Med.Hrs.Ext.Diu|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 639 Insal.S/Sal.Bas|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 640 Med.Hrs.Ext.Not|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 641 Insal.S/Sal.Nor|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 642 Med.Eve.Var.S/F|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 643 Anuênio S/Féria|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 644 Biênio S/Férias|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 645 Triênio S/Féria|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 646 Quadriênio S/Fé|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 647 Quinquênio S/Fé|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 648 Gratificacao Go|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 649 Media Comissoes|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 650 Multa Dobro S/F|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 651 Assiduidade Fer|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 652 1/3 S/Férias Ve|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 653 Média Horas Aul|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 654 Média Horas Aul|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 655 Auxilio Creche |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 656 Média Horas Aul|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 657 Média Horas Aul|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 658 Horas Férias Pr|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 659 Horas Férias Pr|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 660 Insal.S/Sal.Min|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 661 Media Comissoes|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 662 Periculosidade |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 663 Insal.S/Sal.Bas|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 664 Adicional Notur|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 665 Transf.de Filia|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 666 Quebra de Caixa|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 667 Adic.Espec. S/F|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 668 Med.Hrs.Ext.Diu|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 669 Insal.S/Sal.Nor|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 670 Med.Hrs.Ext.Not|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 671 Gratificacao Go|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 672 Med.Eve.Var.S/F|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+
+
+ Folha de Pagamento                                            30/01/2026Pág:0
+                               Incidências Eventos
+ Evento                     Mensal              13º                Férias
+                    +-----------------------------------------------------------
+                    |INSIEMFGTSIRR PI  |INS IEMFGT IRRPI   |INSIEMFGTIRRPI   |co
+ -------------------------------------------------------------------------------
+ 673 Anuênio S/Féria|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 674 Biênio S/Férias|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 675 Triênio s/Féria|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 676 Quadriênio S/Fé|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 677 Quinquênio S/Fé|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 678 1/3 S/Férias Pr|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 679 Assiduidade S/F|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 680 Indenização Mês|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 681 Estabilidade na|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 682 Auxilio Creche |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 683 Horas Recesso P|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 684 Horas Recesso P|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 685 Gratificação na|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 686 Adicional de Ca|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 687 Adicional de Ca|I   I  I  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 688 Indenização Tem|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 689 Adicional de Ca|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 690 Adicional de Ca|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 691 Adicional de Ca|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 692 Adicional de Ca|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 693 Adicional Caixa|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 694 Adicional  de C|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 695 Adidional de Ca|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 696 Adicional de Ca|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 697 Adicional de Ca|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 698 Adicional de Ca|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 699 Adicional de Ca|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 700 Devolução IRRF |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 701 Devolução IRRF |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 702 Adicional de Ca|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 703 Adicional de Ca|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 704 Adicional de Ca|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 705 Adicional de Ca|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 706 Adicional de Ca|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 707 Adicional de Ca|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 708 Adicional de Ca|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 709 Adicional de Ca|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 710 Devolução INSS |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 711 Devolução INSS |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 712 Adicional de Ca|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 713 Adicional de Ca|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 714 Bonificação    |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 715 Quebra de Caixa|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 716 Produção       |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 717 Grupo Apoio Fam|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 718 Desconto Autori|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 719 Quebra de Caixa|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 720 Aviso Prévio Pr|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 721 Aviso Prévio Pr|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 722 Insal.S/Sal.Min|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 723 Media Comissoes|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 724 Periculosidade |I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 725 Insal.S/Sal.Bas|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 726 Adicional Notur|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 727 Transf.de Filia|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 728 Quebra de Caixa|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+
+
+ Folha de Pagamento                                            30/01/2026Pág:0
+                               Incidências Eventos
+ Evento                     Mensal              13º                Férias
+                    +-----------------------------------------------------------
+                    |INSIEMFGTSIRR PI  |INS IEMFGT IRRPI   |INSIEMFGTIRRPI   |co
+ -------------------------------------------------------------------------------
+ 729 Adic.Espec. A.P|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 730 Med.Hrs.Ext.Diu|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 731 Insal.S/Sal.Nor|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 732 Med.Hrs.Ext.Not|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 733 Assiduidade A.P|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 734 Med.Eve.Var.A.P|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 735 Gratificação Go|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 736 Anuênio A.P.P. |I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 737 Média Horas Aul|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 738 Biênio A.P.P.  |I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 739 Média Horas Aul|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 740 Triênio A.P.P. |I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 741 Quadriênio A.P.|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 742 Quinquênio A.P.|I   I  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 743 Auxilio Creche |I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 744 Prêmio         |I   I  I  S   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 745 Horas Extras HE|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 746 Compensação Fer|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 747 Assistência Odo|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 748 Cargo de Confia|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 749 Dsr Acumulo de |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 750 13o Salário Pro|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 751 Media Comissoes|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 752 Insal.S/Sal.Min|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 753 Gratificacao Go|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 754 Periculosidade |I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 755 Insal.S/Sal.Bas|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 756 Adicional Notur|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 757 Transf.de Filia|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 758 Quebra de Caixa|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 759 Adic.Espec. 13o|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 760 Med.Hrs.Ext.Diu|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 761 Insal.S/Sal.Nor|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 762 Med.Hrs.Ext.Not|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 763 Média Horas Aul|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 764 Med.Eve.Var. 13|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 765 Assiduidade 13o|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 766 Anuênio 13o Sal|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 767 Médias Horas Au|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 768 Biênio 13o Sal.|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 769 Triênio 13o Sal|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 770 Quadriênio 13o |I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 771 Quinquênio 13o |I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 772 Indenização    |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 773 Gratificação   |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 774 Empréstimo Cons|I   I  I  D   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 775 Horas Férias Pr|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 776 Horas Férias Pr|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 777 Média Horas Aul|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 778 Média Horas Aul|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 779 Insal.S/Sal.Min|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 780 Media Comissoes|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 781 Periculosidade |I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 782 Insal.S/Sal.Bas|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 783 Adicional Notur|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 784 Transf.de Filia|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+
+
+ Folha de Pagamento                                            30/01/2026Pág:0
+                               Incidências Eventos
+ Evento                     Mensal              13º                Férias
+                    +-----------------------------------------------------------
+                    |INSIEMFGTSIRR PI  |INS IEMFGT IRRPI   |INSIEMFGTIRRPI   |co
+ -------------------------------------------------------------------------------
+ 785 Quebra de Caixa|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 786 Adic.Espec. S/F|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 787 Med.Hrs.Ext.Diu|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 788 Insal.S/Sal.Nor|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 789 Med.Hrs.Ext.Not|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 790 Gratificacao Go|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 791 Med.Eve.Var.S/F|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 792 Anuênio S/Féria|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 793 Biênio S/Férias|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 794 Triênio s/Féria|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 795 Quadriênio S/Fé|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 796 Quinquênio S/Fé|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 797 Gratificação de|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 798 Assiduidade S/F|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 799 1/3 S/Ferias Pr|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 800 Desconto de Val|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 801 Multas Parcelad|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 802 HORA AULA ATIVI|S   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 803 Hora Refeição  |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 804 Diferença de Fé|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 805 Seguro de Vida |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 806 Desconto Farmác|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 807 Desconto Mercad|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 808 Desconto Habita|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 809 Desconto Associ|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 810 Desconto Telefo|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 811 Desconto Alugue|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 812 Aviso Previo Es|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 813 Combustivel    |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 814 Aluguel de Moto|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 815 Vale Transporte|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 816 Vale Transporte|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 817 Complemento de |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 818 Taxa Bancaria  |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 819 Desconto de Clu|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 820 Desconto Adiant|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 821 Contribuição Co|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 822 Adicional de Ca|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 823 Horas Extras 60|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 824 Horas Extras 10|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 825 Empréstimo S/ F|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 826 Estouro Descont|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 827 Horas Extras 50|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 828 Dia do Padeiro |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 829 Utilização de V|I   I  I  I   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 830 Faltas Diurnas |D   D  D  D   D   | I  I   I  I  I    |I  I  I  I  I    |I
+ 831 Diferença Recol|I   I  I  I   I   | I  I   I  D  I    |I  I  I  I  I    |I
+ 832 DSR Faltas Diur|D   D  D  D   D   | I  I   I  I  I    |I  I  I  I  I    |I
+ 833 Horas Normais N|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 834 Adicional Notur|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 835 Adicional Notur|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 836 Adicional Notur|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 837 Adicional Notur|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 838 Devolucao Pensa|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 839 Adicional Notur|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 840 Adicional Notur|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+
+
+ Folha de Pagamento                                            30/01/2026Pág:0
+                               Incidências Eventos
+ Evento                     Mensal              13º                Férias
+                    +-----------------------------------------------------------
+                    |INSIEMFGTSIRR PI  |INS IEMFGT IRRPI   |INSIEMFGTIRRPI   |co
+ -------------------------------------------------------------------------------
+ 841 Adicional Notur|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 842 Adicional Notur|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 843 Adicional Notur|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 844 DSR S/Adicional|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 845 Estorno de Falt|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 846 Quebra de Caixa|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 847 Horas Intervalo|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 848 Insalubridade  |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 849 Processo 103684|I   I  I  D   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 850 Descto.Vlr.Folh|I   D  I  D   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 851 Diferença de DS|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 852 Horas Extras 50|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 853 Horas Extras 50|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 854 Valor Líquido N|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 855 Diferença de In|S   S  S  I   S   | I  I   I  I  I    |I  I  I  S  I    |I
+ 856 DIFERENÇA DE DS|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 857 Estorno Adianta|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 858 Horas Extras Do|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 859 Reembolso Assis|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 860 Bonificação    |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 861 Horas Extras Fe|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 862 Cargo de Confia|I   I  I  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 863 Cargo de Confia|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 864 Distribuição de|I   I  I  S   I   | I  I   I  I  I    |I  I  I  I  I    |S
+ 865 Pagamento Indev|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 866 Utilização de V|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 867 Horas Extras HE|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 868 Horas Extras HE|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 869 Desconto Valor |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 870 Desconto Unifom|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 871 Gratificacao Fu|I   I  I  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 872 Gratificacao Fu|I   I  I  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 873 Diferença de Di|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 874 Diferença de Di|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 875 Diferença de Di|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 876 Banco de Horas |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 877 Desconto Pagame|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 878 Multa Atraso Pa|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 879 FOLGAS         |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 880 Desconto Adiant|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 881 Vale Refeição  |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 882 Vale Refeição  |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 883 Bônus          |I   I  I  S   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 884 Desconto Carnav|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 885 Diferença de Ho|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 886 Diferença de In|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 887 Diferença de Ce|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 888 Abono Anual 13 |I   I  I  I   I   | D  D   I  D  D    |I  I  I  I  I    |I
+ 889 Abono Anual 13 |I   I  I  I   I   | D  D   I  D  D    |I  I  I  I  I    |I
+ 890 Desconto Adiant|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 891 Abono Indenizat|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 892 Diferença Verba|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 893 Diferença de Ad|S   S  S  S   S   | I  I   I  I  I    |I  I  I  S  I    |I
+ 894 Vale Refeição P|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 895 Desconto 13o Sa|I   I  I  I   I   | I  I   D  I  I    |I  I  I  I  I    |I
+ 896 Valor Líquido N|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+
+
+ Folha de Pagamento                                            30/01/2026Pág:0
+                               Incidências Eventos
+ Evento                     Mensal              13º                Férias
+                    +-----------------------------------------------------------
+                    |INSIEMFGTSIRR PI  |INS IEMFGT IRRPI   |INSIEMFGTIRRPI   |co
+ -------------------------------------------------------------------------------
+ 897 Gratificação de|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 898 Mensalidade Sin|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 899 Faltas Noturnas|D   D  D  D   D   | I  I   I  I  I    |I  I  I  I  I    |I
+ 900 DSR Faltas Notu|D   D  D  D   D   | I  I   I  I  I    |I  I  I  I  I    |I
+ 901 Adicional de Re|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 902 Adicional Respo|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 903 Contribuição As|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 904 Desconto Adiant|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 905 Indenização Adi|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 906 Horas Extras 50|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 907 Pagamento Féria|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 908 Diferença de Va|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 909 Compl. Sal Norm|I   I  I  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 910 Compl. Sal Norm|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 911 Diferença Dissí|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 912 Diferença Dissí|S   S  S  S   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 913 Diferença Dissí|S   S  S  S   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 914 Diferença Dissí|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 915 Diferença Dissí|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 916 Diferença Dissí|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 917 Diferença Dissí|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 918 Diferença Dissí|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 919 Diferença Dissí|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 920 Diferença Dissí|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 921 Diferença Dissí|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 922 Diferença Dissí|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 923 Diferença Dissí|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 924 Desconto Banco |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 925 PLR Pago Anteci|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 926 Horas Férias Ve|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 927 Horas Férias Ve|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 928 Auxilio Aliment|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 929 Vale Transporte|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 930 Diferença de Di|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 931 Taxa Negocial P|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 932 Adicional de Ca|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 933 Pagto indevido |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 934 Taxa Assistenci|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 935 13o Salário Dif|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 936 Diferença de Fé|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 937 Dia do Trabalha|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 938 Adicional Comer|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 939 Tratamento Odon|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 940 Diferença de Co|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 941 Complemento de |S   S  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 942 Diferença de Co|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 943 Indenizacao Adi|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 944 Pensão Judicial|I   I  I  I   I   | I  I   I  I  I    |I  I  I  D  I    |I
+ 945 BOLSA ESTÁGIO  |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 946 Diaria de Viage|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 947 Diaria de Viage|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 948 Diferença de Pr|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 949 Clausula Vigesi|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 950 Dif. de Salario|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 951 Dif. De Cesta D|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 952 Antecipação de |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+
+
+ Folha de Pagamento                                            30/01/2026Pág:0
+                               Incidências Eventos
+ Evento                     Mensal              13º                Férias
+                    +-----------------------------------------------------------
+                    |INSIEMFGTSIRR PI  |INS IEMFGT IRRPI   |INSIEMFGTIRRPI   |co
+ -------------------------------------------------------------------------------
+ 953 Devolução/Estor|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 954 Total Bruto Par|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 955 Desconto INSS S|I   I  I  I   I   | I  I   I  I  I    |I  I  I  D  I    |I
+ 956 Diferença Salár|I   I  I  S   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 957 Desconto Parcel|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 958 Desc. Pensão Ju|I   I  I  I   I   | I  I   I  I  I    |I  I  I  D  I    |I
+ 959 Desconto Plano |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 960 Desconto IRRF S|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 961 Diferença de Fé|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 962 Antecipação de |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 963 Antecipação de |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 964 Antecipação de |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 965 Antecipação de |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 966 Antecipação de |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 967 Provisão CP Sob|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 968 Provisão IRRF S|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 969 Provisão de Pen|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 970 Horas Férias Pr|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 971 Horas Férias Pr|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 972 Insal.S/Sal.Min|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 973 Media Comissoes|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 974 Periculosidade |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 975 Insal.S/Sal.Bas|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 976 Adicional Notur|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 977 Transf.de Filia|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 978 Quebra de Caixa|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 979 Adic.Espec. Fér|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 980 Med.Hrs.Ext.Diu|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 981 Insal.S/Sal.Nor|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 982 Med.Hrs.Ext.Not|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 983 Assiduidade Fér|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 984 Med.Eve.Var.Fér|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 985 Gratificação Go|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 986 Anuênio Férias |I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 987 Plano de Saúde |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 988 Biênio Férias P|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 989 Provisão Desc. |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 990 Triênio Férias |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 991 Quadriênio Féri|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 992 Quinquênio Féri|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 993 Média Horas Aul|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 994 Média Horas Aul|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 995 Bolsa Estudo   |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 996 1/3 S/Férias Pr|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 997 Abono Salárial |I   I  I  I   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 998 Tributação Abon|S   S  S  I   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 999 Ajuda de Custo |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1000 Adic Tempo Ser|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1001 Adic Tempo Ser|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1002 Adic Tempo Ser|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1003 Adic Tempo Ser|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1004 Adic Tempo Ser|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1005 Adic Tempo Ser|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1006 Adic Tempo Ser|I   I  I  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 1007 Adic Tempo Ser|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1008 Adic Tempo Ser|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+
+
+ Folha de Pagamento                                            30/01/2026Pág:0
+                               Incidências Eventos
+ Evento                     Mensal              13º                Férias
+                    +-----------------------------------------------------------
+                    |INSIEMFGTSIRR PI  |INS IEMFGT IRRPI   |INSIEMFGTIRRPI   |co
+ -------------------------------------------------------------------------------
+ 1009 ATS S/Férias  |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1010 ATS Abono Pecu|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1011 Adic Tempo Ser|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1012 Adic Tempo Ser|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1013 Adic Tempo Ser|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1014 Adic Tempo Ser|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1015 Adic Tempo Ser|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 1016 Adic Tempo Ser|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 1017 Adic Tempo Ser|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1018 Adic Tempo Ser|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1019 Adic Tempo Ser|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1020 Horas Extras 5|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1021 Hora de Espera|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1022 Co Participaca|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1023 Alimentação In|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1024 Refeição Inf. |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1025 Plano de saúde|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1026 Plano Odontoló|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1027 PTS - Prêmio p|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1028 Emprestimo    |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1029 Emprestimo eCo|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1030 Alimentação In|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1031 Horas Extras M|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1032 Hora Interjorn|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1033 Tempo a dispos|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1034 Hora Interjorn|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1035 Acordo Judicia|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1064 Periculosidade|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1077 Cesta Básica D|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1110 Horas Prorroga|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1111 Horas Prorroga|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1112 Insal.S/Sal.Mi|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1113 Insal.S/Sal.Ba|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1114 Insal.S/Sal.No|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1115 Periculosidade|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1116 Adicional Notu|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1117 Transf.de Fili|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1118 Quebra de Caix|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1119 Adic.Especific|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1120 Med.Hrs.Ext.Pr|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1121 Med.Hrs.Ext.No|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1122 Med.Eve.Var.Pr|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1123 Horas Aula Diu|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1124 Med.Hrs.Aulas |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1125 Assiduidade Pr|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1126 Med.Comissoes/|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1127 Gratificação G|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1128 Anuenio Prorro|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1129 Bienio Prorrog|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1131 Trienio Prorro|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1133 Quadrienio Pro|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1134 Quinquenio Pro|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1137 DSR S/Hrs.Aula|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1138 13o Salário Pr|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1139 Média Comissõe|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1140 Insal.S/Sal.Mi|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+
+
+ Folha de Pagamento                                            30/01/2026Pág:0
+                               Incidências Eventos
+ Evento                     Mensal              13º                Férias
+                    +-----------------------------------------------------------
+                    |INSIEMFGTSIRR PI  |INS IEMFGT IRRPI   |INSIEMFGTIRRPI   |co
+ -------------------------------------------------------------------------------
+ 1141 Insal.S/Sal.No|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1142 Insal.S/Sal.Ba|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1143 Periculosidade|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1144 Adicional Notu|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1145 Transf.de Fili|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1146 Quebra de Caix|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1147 Adic.Especific|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1148 Med.Eve.Var.13|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1149 Assiduidade 13|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1151 Med.Hrs.Ext.Di|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1152 Med.Hrs.Ext.No|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1153 Med.Hrs.Aulas |I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1154 Med.Hrs.Aula N|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1155 Gratificação G|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1156 Anuenio 13o Sa|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1157 Bienio 13o Sal|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1158 Trienio 13o Sa|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1159 Quadrienio 13o|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1160 Quinquenio 13o|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1195 Salario Famili|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1421 13o Salário Pr|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1422 Média Comis/DS|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1423 Insal.S/Sal.Mi|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1424 Insal.S/Sal.No|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1425 Insal.S/Sal.Ba|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1426 Periculosidade|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1427 Adicional Notu|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1428 Transf.de Fili|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1429 Quebra de Caix|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1430 Adic.Especific|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1431 Med.Hrs.Ext.Di|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1432 Med.Hrs.Ext.No|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1433 Med.Hrs.Aulas |I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1434 Med.Hrs.Aulas |I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1435 Assiduidade 13|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1436 Gratificação G|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1437 Med.Eve.Var.13|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1438 Anuênio 13o Pr|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1439 Biênio 13o Pro|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1440 Trienio 13o Sa|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1441 Quadrienio 13o|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1442 Quinquenio 13o|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1443 Adic Tempo Ser|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1444 Adic Tempo Ser|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1445 Mensalidade  P|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1446 Adesão  Plano |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1447 Outras Despesa|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1448 Mensalidade  P|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1449 Adesão Plano d|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1450 Outras Despesa|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1451 Gratificação F|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1452 Gratificação F|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1453 Gratificacao F|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1454 Gratificacao F|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1455 Gratificacao F|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1456 Gratificacao F|I   I  I  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+
+
+ Folha de Pagamento                                            30/01/2026Pág:0
+                               Incidências Eventos
+ Evento                     Mensal              13º                Férias
+                    +-----------------------------------------------------------
+                    |INSIEMFGTSIRR PI  |INS IEMFGT IRRPI   |INSIEMFGTIRRPI   |co
+ -------------------------------------------------------------------------------
+ 1457 Gratificacao F|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1458 Gratificacao F|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 1459 Gratificacao F|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 1460 Gratificacao F|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1461 Gratificação F|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1462 Gratificação F|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1463 Gratificacao F|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1464 Gratificacao F|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1465 Gratificacao F|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1466 Gratificacao F|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1467 Gratificacao F|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 1468 Gratificacao F|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1469 Gratificacao F|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1470 Gratificação F|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1471 Gratificacao F|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 1472 Gratificacao F|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 1473 Gratificação F|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 1474 Gratificação F|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1475 Gratificação F|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1476 Gratificação F|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 1478 Beneficio Plan|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1830 Pensão Judicia|I   I  I  D   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1831 Pensão Judicia|I   I  I  I   I   | I  I   I  D  I    |I  I  I  I  I    |I
+ 1832 Pensão Judicia|I   I  I  I   I   | I  I   I  I  I    |I  I  I  D  I    |I
+ 1834 Pensão Judicia|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1835 Pensão Judicia|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1860 Contribuição S|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1862 Mensalidade Si|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1864 Contribuição C|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1866 Taxa Assistenc|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1895 Desconto Líqui|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1900 FGTS          |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1901 FGTS S/13o Sal|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1902 FGTS S/Férias |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1903 FGTS S/Aviso P|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1904 FGTS S/13o Sal|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1905 FGTS S/13o Sal|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1906 FGTS 13o Salár|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1908 FGTS Multa - D|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1914 FGTS Normal Mê|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1915 FGTS 13o Salár|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1916 FGTS GRFC     |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1917 FGTS 13o Salár|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1918 FGTS s/Férias |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1919 FGTS 13o Salár|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1920 IRRF          |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1921 IRRF S/13o Sal|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1922 IRRF S/Férias |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1923 IRRF S/Partici|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1925 Diferença IRRF|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1926 IRRF Férias na|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1930 PIS           |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1931 PIS S/13o Salá|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1932 PIS S/Férias  |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1950 INSS          |I   I  I  D   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 1951 INSS S/13o Sal|I   I  I  I   I   | I  I   I  D  I    |I  I  I  I  I    |I
+
+
+ Folha de Pagamento                                            30/01/2026Pág:0
+                               Incidências Eventos
+ Evento                     Mensal              13º                Férias
+                    +-----------------------------------------------------------
+                    |INSIEMFGTSIRR PI  |INS IEMFGT IRRPI   |INSIEMFGTIRRPI   |co
+ -------------------------------------------------------------------------------
+ 1952 INSS S/Férias |I   I  I  I   I   | I  I   I  I  I    |I  I  I  D  I    |I
+ 1953 FGTS s/13o Sal|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2000 Med.Adic.Not S|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2001 Med.Adic.Not S|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 2002 Med.Adic.Not S|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2003 Med.Adic.Not S|I   I  I  I   I   | I  I   S  S  I    |I  I  I  I  I    |I
+ 2004 Med.Adic.Not S|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2005 Med.Adic.Not S|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2006 Med.Adic.Not S|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 2007 Med.Adic.Not S|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2008 Med.Adic.Not S|I   I  I  I   I   | I  I   S  I  I    |I  I  I  I  I    |I
+ 2009 Med.Adic.Not S|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 2010 Med. Adic. Not|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2011 Med. Adic. Not|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 2012 Med. Adic. Not|I   I  I  I   I   | S  S   S  I  I    |I  I  I  I  I    |I
+ 2013 Med. Adic. Not|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2014 Med. Adic. Not|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 2015 Med. Adic. Not|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 2016 Med. Adic. Not|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 2017 Med. Adic. Not|I   I  I  I   I   | I  S   S  I  I    |I  I  I  I  I    |I
+ 2018 Med. Adic. Not|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 2019 Med. Adic. Not|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2020 Med. Adic. Not|I   I  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2021 Med. Adic. Not|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2022 Med. Adic. Not|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2023 Med. Adic. Not|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2024 Med. Adic. Not|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2025 Med. Adic. Not|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2026 Med. Adic. Not|I   S  S  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2027 Med. Adic. Not|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2028 Med. Adic. Not|I   I  I  I   I   | I  I   I  I  I    |I  I  I  S  I    |I
+ 2029 Provisão INSS |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2030 Provisão IRRF |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2031 Devolução Prov|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2032 Devolução Prov|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2033 13o. Salário P|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 2034 Horas Férias P|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 2035 1/3 Horas Féri|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 2036 FGTS Multa - A|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2037 FGTS Multa S/ |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2038 Horas Licença |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2039 Horas Licença |S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2040 Médias de Valo|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2041 Médias de Hora|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2042 Médias de Hora|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2043 Valor Dedução |I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2044 Diferença de 1|S   S  S  I   S   | I  I   I  I  I    |I  I  I  S  I    |I
+ 2045 Diferença de 1|I   I  I  I   I   | I  I   I  I  I    |S  S  S  S  S    |I
+ 2046 Horas Lic. Méd|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2047 Horas Lic. Méd|S   I  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2048 Médias Valores|S   I  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2049 Médias Horas E|S   S  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2050 Médias Horas E|S   I  S  S   S   | I  I   I  I  I    |I  I  I  I  I    |I
+ 2051 Estouro Pgto A|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 2052 Provisão Empré|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 4000 Dedução Simpli|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+
+
+ Folha de Pagamento                                            30/01/2026Pág:0
+                               Incidências Eventos
+ Evento                     Mensal              13º                Férias
+                    +-----------------------------------------------------------
+                    |INSIEMFGTSIRR PI  |INS IEMFGT IRRPI   |INSIEMFGTIRRPI   |co
+ -------------------------------------------------------------------------------
+ 4001 Dedução Simpli|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 4002 Dedução Simpli|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 4003 Estouro Pgto A|I   I  I  I   I   | S  S   S  S  S    |I  I  I  I  I    |I
+ 4004 Empréstimo Cré|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 4005 Devol./Desc Em|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 4006 Planos de Saúd|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 4007 Provisão Empré|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 4008 Devol./Desc Em|I   I  I  I   I   | I  I   I  I  I    |I  I  I  I  I    |I
+ 4009 Estouro Pgto A|I   I  D  I   I   | I  I   I  I  I    |I  I  I  I  I    |I

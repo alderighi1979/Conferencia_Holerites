@@ -16,9 +16,12 @@ if (-not (Test-Path ".git")) {
     git remote add origin $repoUrl
 }
 
-# Configurar remote origin (atualiza se já existir)
-git remote remove origin 2>$null
-git remote add origin $repoUrl
+# Configurar remote origin (atualiza URL se já existir)
+if (git remote get-url origin 2>$null) {
+    git remote set-url origin $repoUrl
+} else {
+    git remote add origin $repoUrl
+}
 Write-Host "Remote configurado: $repoUrl"
 
 # Adicionar arquivos (respeitando .gitignore)
@@ -32,7 +35,7 @@ if ([string]::IsNullOrWhiteSpace($status)) {
 Write-Host "Arquivos a serem commitados:"
 git status -s
 
-git commit -m "Atualização: Conferência de Holerites e Férias - build exe, PWA, paths, README instalação"
+git commit -m "Atualização: Conferência de Holerites e Férias - importar eventos, cadastro otimizado, detalhe cálculo"
 Write-Host "Fazendo push para origin/$branch ..."
 git push -u origin $branch
 

@@ -62,10 +62,10 @@ def gerar_log_calculo(
     """
     log = []
     
-    # Base INSS
+    # Base INSS (positivo = SOMA, negativo = DIMINUI no código do evento)
     if eventos_inss:
         eventos_str = ', '.join(map(str, eventos_inss))
-        log.append(f"Base INSS: Somatório dos eventos [{eventos_str}] = {formatar_moeda(base_inss)}.")
+        log.append(f"Base INSS: Eventos [{eventos_str}]. Base = {formatar_moeda(base_inss)}.")
     else:
         log.append(f"Base INSS: Nenhum evento com incidência de INSS. Base = {formatar_moeda(base_inss)}.")
     
@@ -83,7 +83,7 @@ def gerar_log_calculo(
     # Base FGTS
     if eventos_fgts:
         eventos_str = ', '.join(map(str, eventos_fgts))
-        log.append(f"Base FGTS: Somatório dos eventos [{eventos_str}] = {formatar_moeda(base_fgts)}.")
+        log.append(f"Base FGTS: Eventos [{eventos_str}]. Base = {formatar_moeda(base_fgts)}.")
     else:
         log.append(f"Base FGTS: Nenhum evento com incidência de FGTS. Base = {formatar_moeda(base_fgts)}.")
     
@@ -92,7 +92,7 @@ def gerar_log_calculo(
     # Base IRRF
     if eventos_irrf:
         eventos_str = ', '.join(map(str, eventos_irrf))
-        log.append(f"Base IRRF: Somatório dos eventos [{eventos_str}] = {formatar_moeda(base_irrf)}.")
+        log.append(f"Base IRRF: Eventos [{eventos_str}]. Base = {formatar_moeda(base_irrf)}.")
     else:
         log.append(f"Base IRRF: Nenhum evento com incidência de IRRF. Base = {formatar_moeda(base_irrf)}.")
     
@@ -398,18 +398,29 @@ def calcular_folha(
         else:
             total_descontos += valor
         
-        # Calcular bases de incidência
-        if getattr(evento_db, campos_incidencia["inss"]) == IncidenciaEnum.SIM:
+        # Calcular bases de incidência: SOMA adiciona, DIMINUI subtrai, ISENTO não altera
+        inc_inss = getattr(evento_db, campos_incidencia["inss"])
+        inc_fgts = getattr(evento_db, campos_incidencia["fgts"])
+        inc_irrf = getattr(evento_db, campos_incidencia["irrf"])
+        # Compatibilidade com valores antigos S/I (já migrados para SOMA/ISENTO no startup)
+        if inc_inss == IncidenciaEnum.SOMA:
             base_inss += valor
             eventos_inss.append(codigo)
-        
-        if getattr(evento_db, campos_incidencia["fgts"]) == IncidenciaEnum.SIM:
+        elif inc_inss == IncidenciaEnum.DIMINUI:
+            base_inss -= valor
+            eventos_inss.append(-codigo)  # negativo para indicar diminuição no log
+        if inc_fgts == IncidenciaEnum.SOMA:
             base_fgts += valor
             eventos_fgts.append(codigo)
-        
-        if getattr(evento_db, campos_incidencia["irrf"]) == IncidenciaEnum.SIM:
+        elif inc_fgts == IncidenciaEnum.DIMINUI:
+            base_fgts -= valor
+            eventos_fgts.append(-codigo)
+        if inc_irrf == IncidenciaEnum.SOMA:
             base_irrf += valor
             eventos_irrf.append(codigo)
+        elif inc_irrf == IncidenciaEnum.DIMINUI:
+            base_irrf -= valor
+            eventos_irrf.append(-codigo)
     
     if eventos_nao_encontrados:
         raise ValueError(f"Eventos não encontrados: {eventos_nao_encontrados}")
@@ -424,18 +435,20 @@ def calcular_folha(
     if not faixas_irrf:
         raise ValueError("Tabela IRRF não configurada")
     
-    # Calcular INSS
-    valor_inss, detalhes_inss = calcular_inss_progressivo(base_inss, faixas_inss)
+    # Calcular INSS (base não pode ser negativa para o cálculo)
+    base_inss_calc = max(0.0, base_inss)
+    valor_inss, detalhes_inss = calcular_inss_progressivo(base_inss_calc, faixas_inss)
     
-    # Calcular IRRF - Método Tradicional
+    # Calcular IRRF - Método Tradicional (base não pode ser negativa)
+    base_irrf_calc = max(0.0, base_irrf)
     valor_irrf_tradicional, base_tradicional, detalhes_tradicional = calcular_irrf_tradicional(
-        base_irrf, valor_inss, quantidade_dependentes, faixas_irrf
+        base_irrf_calc, valor_inss, quantidade_dependentes, faixas_irrf
     )
     
     # Calcular IRRF - Método Simplificado
     desconto_padrao = config_simplificada.valor_desconto_padrao if config_simplificada else 0.0
     valor_irrf_simplificado, base_simplificado, detalhes_simplificado = calcular_irrf_simplificado(
-        base_irrf, desconto_padrao, faixas_irrf
+        base_irrf_calc, desconto_padrao, faixas_irrf
     )
     
     # Escolher o menor valor de IRRF (mais favorável ao contribuinte)
@@ -452,14 +465,15 @@ def calcular_folha(
     # A redução se aplica a cálculos mensais e 13º salário
     reducao_transicao = 0.0
     if tipo_calculo in ["mensal", "13"]:
-        reducao_transicao = calcular_reducao_transicao_irrf(base_irrf)
+        reducao_transicao = calcular_reducao_transicao_irrf(base_irrf_calc)
         valor_irrf_antes_reducao = valor_irrf
         valor_irrf = max(0.0, valor_irrf - reducao_transicao)
     else:
         valor_irrf_antes_reducao = valor_irrf
     
-    # Calcular FGTS (8% sobre a base)
-    valor_fgts = round(base_fgts * 0.08, 2)
+    # Calcular FGTS (8% sobre a base; base não pode ser negativa)
+    base_fgts_pos = max(0.0, base_fgts)
+    valor_fgts = round(base_fgts_pos * 0.08, 2)
     
     # Calcular valor líquido
     valor_liquido = total_proventos - total_descontos - valor_inss - valor_irrf

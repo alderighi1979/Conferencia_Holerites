@@ -154,14 +154,14 @@ def calcular_peric(request: schemas.CalculoPericulosidadeRequest):
 @router.post("/interjornada", response_model=schemas.CalculoProventoResponse)
 def calcular_interj(request: schemas.CalculoInterjornadaRequest):
     """
-    Calcula interjornada (tempo que faltou para completar 11h de descanso).
-    Fórmula: Valor da hora normal + (Adicional * horas que faltaram)
+    Calcula interjornada (pagamento pelas horas faltantes para completar 11h de descanso).
+    Fórmula: ((Salário base / Jornada) * (1 + Adicional)) * Horas faltantes
     """
     try:
         valor, detalhes = calcular_interjornada(
             salario_base=request.salario_base,
             jornada_mensal=request.jornada_mensal,
-            horas_descanso=request.horas_descanso,
+            horas_faltantes=request.horas_faltantes,
             adicional=request.adicional
         )
         return schemas.CalculoProventoResponse(

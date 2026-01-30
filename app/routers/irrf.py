@@ -21,8 +21,14 @@ def criar_faixa_irrf(faixa: schemas.Tabela_IRRFCreate, db: Session = Depends(get
 @router.get("/", response_model=List[schemas.Tabela_IRRFResponse])
 def listar_faixas_irrf(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     """Listar todas as faixas de IRRF"""
-    faixas = db.query(Tabela_IRRF).offset(skip).limit(limit).all()
-    return faixas
+    try:
+        faixas = db.query(Tabela_IRRF).order_by(Tabela_IRRF.faixa_inicial).offset(skip).limit(limit).all()
+        return faixas
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Erro ao listar faixas de IRRF: {str(e)}"
+        )
 
 
 @router.get("/{faixa_id}", response_model=schemas.Tabela_IRRFResponse)

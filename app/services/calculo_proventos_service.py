@@ -158,40 +158,36 @@ def calcular_periculosidade(
 def calcular_interjornada(
     salario_base: float,
     jornada_mensal: float,
-    horas_descanso: float,
+    horas_faltantes: float,
     adicional: float = 0.50
 ) -> Tuple[float, str]:
     """
-    Calcula interjornada (tempo que faltou para completar 11h de descanso).
-    Fórmula: Valor da hora normal + (Adicional * horas que faltaram)
+    Calcula interjornada (pagamento pelas horas faltantes para completar 11h de descanso).
+    Fórmula: ((Salário base / Jornada) * (1 + Adicional)) * Horas faltantes (0 a 11h)
     
     Args:
         salario_base: Salário base do funcionário
         jornada_mensal: Jornada mensal em horas (ex: 220)
-        horas_descanso: Horas de descanso que faltaram para completar 11h
+        horas_faltantes: Horas que faltaram para completar 11h de descanso (0 a 11h)
         adicional: Adicional percentual (0.50 para 50%, 0.80 para 80%)
     
     Returns:
         (valor_calculado, detalhes)
     """
-    if horas_descanso > 11:
-        horas_descanso = 11
-    
-    valor_hora = salario_base / jornada_mensal
-    horas_faltantes = 11 - horas_descanso
-    
     if horas_faltantes <= 0:
-        return 0.0, "Descanso completo (11h ou mais). Sem adicional."
-    
-    valor_interjornada = valor_hora * (1 + adicional) * horas_faltantes
-    
+        return 0.0, "Horas faltantes deve ser maior que zero."
+    if horas_faltantes > 11:
+        horas_faltantes = 11.0
+
+    valor_hora = salario_base / jornada_mensal
+    valor_interjornada = (valor_hora * (1 + adicional)) * horas_faltantes
+
     adicional_percent = adicional * 100
     detalhes = (
-        f"Valor da Hora: R$ {valor_hora:.2f} | "
-        f"Horas de Descanso: {horas_descanso:.2f}h | "
+        f"(Salário Base / {jornada_mensal:.0f}): R$ {valor_hora:.2f} | "
+        f"(1 + Adicional {adicional_percent:.0f}%): R$ {valor_hora * (1 + adicional):.2f}/h | "
         f"Horas Faltantes: {horas_faltantes:.2f}h | "
-        f"Adicional: {adicional_percent:.0f}% | "
         f"Total: R$ {valor_interjornada:.2f}"
     )
-    
+
     return round(valor_interjornada, 2), detalhes

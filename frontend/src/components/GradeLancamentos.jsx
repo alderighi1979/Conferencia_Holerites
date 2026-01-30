@@ -69,6 +69,20 @@ function GradeLancamentos({ eventos, setEventos, tipoCalculo, setTipoCalculo, sa
     return n;
   };
 
+  const camposIncidenciaPorTipo = {
+    mensal: ['inss_mensal', 'fgts_mensal', 'irrf_mensal'],
+    '13': ['inss_13', 'fgts_13', 'irrf_13'],
+    ferias: ['inss_ferias', 'fgts_ferias', 'irrf_ferias'],
+  };
+  const labelsIncidencia = ['INSS', 'FGTS', 'IRRF'];
+
+  const IconeIncidencia = ({ valor }) => {
+    const v = valor === 'S' ? 'SOMA' : valor === 'I' ? 'ISENTO' : valor;
+    if (v === 'SOMA') return <span className="text-green-600 font-bold" title="Soma à base">+</span>;
+    if (v === 'DIMINUI') return <span className="text-red-600 font-bold" title="Diminui da base">−</span>;
+    return <span className="text-gray-400 font-medium" title="Isento">0</span>;
+  };
+
   const adicionarEvento = () => {
     const novoIndex = eventos.length;
     setEventos(prev => [...prev, { codigo_evento: '', valor: '', descricao: '', quantidade_horas: '' }]);
@@ -121,23 +135,27 @@ function GradeLancamentos({ eventos, setEventos, tipoCalculo, setTipoCalculo, sa
       <div className="w-full overflow-hidden rounded-lg border border-gray-200">
         <table className="w-full table-fixed divide-y divide-gray-200 border-collapse">
           <colgroup>
-            <col style={{ width: '10%' }} />
-            <col style={{ width: '52%' }} />
+            <col style={{ width: '8%' }} />
+            <col style={{ width: '38%' }} />
+            <col style={{ width: '20%' }} />
             <col style={{ width: '24%' }} />
-            <col style={{ width: '14%' }} />
+            <col style={{ width: '10%' }} />
           </colgroup>
           <thead className="bg-gray-50">
             <tr>
-              <th className="px-3 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-2 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                 Código
               </th>
-              <th className="px-3 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-2 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                 Descrição
               </th>
-              <th className="px-3 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-2 py-2 text-center text-xs font-medium text-gray-500 uppercase tracking-wider" title="Efeito nas bases: + Soma, − Diminui, 0 Isento">
+                Efeito
+              </th>
+              <th className="px-2 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                 Valor
               </th>
-              <th className="px-3 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-2 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                 Ações
               </th>
             </tr>
@@ -145,7 +163,7 @@ function GradeLancamentos({ eventos, setEventos, tipoCalculo, setTipoCalculo, sa
           <tbody className="bg-white divide-y divide-gray-200">
             {eventos.map((evento, index) => (
               <tr key={index} className="hover:bg-gray-50">
-                <td className="px-3 py-3 whitespace-nowrap">
+                <td className="px-2 py-2 align-top min-w-0">
                   <input
                     ref={el => { refCodigoInputs.current[index] = el; }}
                     type="text"
@@ -154,42 +172,26 @@ function GradeLancamentos({ eventos, setEventos, tipoCalculo, setTipoCalculo, sa
                     value={evento.codigo_evento || ''}
                     onChange={(e) => {
                       const codigo = e.target.value;
-                      // Permitir apenas números e remover qualquer limitação
                       const codigoLimpo = codigo.replace(/[^0-9]/g, '');
                       atualizarEvento(index, 'codigo_evento', codigoLimpo);
-                      
-                      // Limpar timeout anterior se existir
-                      if (timeoutRefs.current[index]) {
-                        clearTimeout(timeoutRefs.current[index]);
-                      }
-                      
-                      // Se o código foi limpo, limpar descrição
+                      if (timeoutRefs.current[index]) clearTimeout(timeoutRefs.current[index]);
                       if (!codigoLimpo) {
                         atualizarEvento(index, 'descricao', '');
                         return;
                       }
-                      
-                      // Buscar automaticamente após 3 dígitos ou com delay de 500ms
                       if (codigoLimpo.length >= 3) {
-                        // Buscar imediatamente se tiver 3+ dígitos
                         buscarEvento(parseInt(codigoLimpo), index);
                       } else {
-                        // Aguardar mais digitação antes de buscar
                         timeoutRefs.current[index] = setTimeout(() => {
-                          if (codigoLimpo.length > 0) {
-                            buscarEvento(parseInt(codigoLimpo), index);
-                          }
+                          if (codigoLimpo.length > 0) buscarEvento(parseInt(codigoLimpo), index);
                         }, 500);
                       }
                     }}
                     onBlur={(e) => {
-                      // Limpar timeout ao sair do campo
                       if (timeoutRefs.current[index]) {
                         clearTimeout(timeoutRefs.current[index]);
                         delete timeoutRefs.current[index];
                       }
-                      
-                      // Buscar evento ao sair do campo se houver código
                       const codigo = e.target.value.trim();
                       if (codigo && codigo.length > 0) {
                         buscarEvento(parseInt(codigo), index);
@@ -197,23 +199,37 @@ function GradeLancamentos({ eventos, setEventos, tipoCalculo, setTipoCalculo, sa
                         atualizarEvento(index, 'descricao', '');
                       }
                     }}
-                    className="w-full max-w-[6rem] px-2 py-1 border border-gray-300 rounded-md focus:outline-none focus:ring-redepetro-red focus:border-redepetro-red"
+                    className="w-full min-w-0 box-border px-2 py-1.5 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-redepetro-red focus:border-redepetro-red"
                     placeholder="Código"
                   />
                   {loadingEventos[index] && (
-                    <span className="ml-2 text-xs text-gray-500">Carregando...</span>
+                    <span className="block mt-1 text-xs text-gray-500">Carregando...</span>
                   )}
                 </td>
-                <td className="px-3 py-3 align-top overflow-hidden">
+                <td className="px-2 py-2 align-top min-w-0 overflow-hidden">
                   <div
-                    className="w-full max-w-full px-2 py-1 border border-gray-200 rounded-md bg-gray-50 text-gray-600 text-sm whitespace-normal break-words"
-                    title={evento.descricao || ''}
+                    className="w-full min-w-0 px-2 py-1.5 border border-gray-200 rounded-md bg-gray-50 text-gray-600 text-sm break-words"
+                    title={evento.descricao || 'Descrição aparecerá aqui'}
                   >
                     {evento.descricao || <span className="text-gray-400">Descrição aparecerá aqui</span>}
                   </div>
                 </td>
-                <td className="px-3 py-3 whitespace-nowrap">
-                  <div className="flex items-center gap-1.5">
+                <td className="px-2 py-2 align-middle min-w-0 text-center">
+                  {eventosCache[evento.codigo_evento] ? (
+                    <div className="flex items-center justify-center gap-1 sm:gap-2" title="INSS | FGTS | IRRF">
+                      {(camposIncidenciaPorTipo[tipoCalculo] || camposIncidenciaPorTipo.mensal).map((campo, i) => (
+                        <span key={campo} className="flex flex-col items-center shrink-0" title={`${labelsIncidencia[i]}: ${eventosCache[evento.codigo_evento][campo] || 'ISENTO'}`}>
+                          <span className="text-[10px] text-gray-400 leading-tight">{labelsIncidencia[i]}</span>
+                          <IconeIncidencia valor={eventosCache[evento.codigo_evento][campo]} />
+                        </span>
+                      ))}
+                    </div>
+                  ) : (
+                    <span className="text-gray-300">—</span>
+                  )}
+                </td>
+                <td className="px-2 py-2 align-top min-w-0">
+                  <div className="flex items-center gap-1 min-w-0">
                     <input
                       type="text"
                       inputMode="decimal"
@@ -229,35 +245,22 @@ function GradeLancamentos({ eventos, setEventos, tipoCalculo, setTipoCalculo, sa
                         setFocusedValorIndex(null);
                         setEditValorValue('');
                       }}
-                      className="w-full min-w-0 px-2 py-1 border border-gray-300 rounded-md focus:outline-none focus:ring-redepetro-red focus:border-redepetro-red text-right tabular-nums"
+                      className="flex-1 min-w-0 box-border px-2 py-1.5 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-redepetro-red focus:border-redepetro-red text-right tabular-nums"
                       placeholder="0,00"
                     />
                     <button
                       type="button"
-                      onClick={() => {
-                        setIndexCalculadora(index);
-                        setCalculadoraAberta(true);
-                      }}
-                      className="p-1.5 text-redepetro-red hover:bg-red-50 rounded-md transition-colors"
+                      onClick={() => { setIndexCalculadora(index); setCalculadoraAberta(true); }}
+                      className="p-1.5 shrink-0 text-redepetro-red hover:bg-red-50 rounded-md transition-colors"
                       title="Calcular provento"
                     >
-                      <svg
-                        className="w-5 h-5"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"
-                        />
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
                       </svg>
                     </button>
                   </div>
                 </td>
-                <td className="px-3 py-3 whitespace-nowrap">
+                <td className="px-2 py-2 align-top min-w-0">
                   {eventos.length > 1 && (
                     <button
                       onClick={() => removerEvento(index)}

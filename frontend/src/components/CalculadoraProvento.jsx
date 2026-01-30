@@ -9,7 +9,7 @@ function CalculadoraProvento({ isOpen, onClose, onCalcular, tipoCalculo, salario
   const [diasUteis, setDiasUteis] = useState('');
   const [domingosFeriados, setDomingosFeriados] = useState('');
   const [somaHE, setSomaHE] = useState('');
-  const [horasDescanso, setHorasDescanso] = useState('');
+  const [horasFaltantes, setHorasFaltantes] = useState('');
   const [loading, setLoading] = useState(false);
   const [erro, setErro] = useState(null);
   const [resultado, setResultado] = useState(null);
@@ -22,7 +22,7 @@ function CalculadoraProvento({ isOpen, onClose, onCalcular, tipoCalculo, salario
       setDiasUteis('');
       setDomingosFeriados('');
       setSomaHE('');
-      setHorasDescanso('');
+      setHorasFaltantes('');
       setResultado(null);
       setErro(null);
     }
@@ -111,13 +111,13 @@ function CalculadoraProvento({ isOpen, onClose, onCalcular, tipoCalculo, salario
           break;
 
         case 'interjornada':
-          if (!horasDescanso || parseFloat(horasDescanso) < 0) {
-            throw new Error('Informe as horas de descanso');
+          if (!horasFaltantes || parseFloat(horasFaltantes) < 0) {
+            throw new Error('Informe as horas faltantes');
           }
           response = await calculoProventosAPI.interjornada({
             salario_base: salario,
             jornada_mensal: jornada,
-            horas_descanso: parseFloat(horasDescanso),
+            horas_faltantes: parseFloat(horasFaltantes),
             adicional: parseFloat(adicional)
           });
           break;
@@ -382,18 +382,19 @@ function CalculadoraProvento({ isOpen, onClose, onCalcular, tipoCalculo, salario
           <>
             <div className="mb-4">
               <label className="block text-sm font-medium text-gray-700 mb-1">
-                Horas de Descanso (0 a 11h)
+                Horas Faltantes (0 a 11h)
               </label>
               <input
                 type="number"
                 step="0.01"
                 min="0"
                 max="11"
-                value={horasDescanso}
-                onChange={(e) => setHorasDescanso(e.target.value)}
+                value={horasFaltantes}
+                onChange={(e) => setHorasFaltantes(e.target.value)}
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-redepetro-red focus:border-redepetro-red"
-                placeholder="Ex: 8.5"
+                placeholder="Ex: 5 (horas que faltaram para 11h de descanso)"
               />
+              <p className="mt-1 text-xs text-gray-500">Horas que faltaram para completar 11h de descanso entre jornadas.</p>
             </div>
             <div className="mb-4">
               <label className="block text-sm font-medium text-gray-700 mb-1">

@@ -20,8 +20,9 @@ function TabConfigSimplificada() {
       const response = await configSimplificadaAPI.getAll();
       setConfigs(response.data);
     } catch (error) {
-      console.error('Erro ao carregar configurações:', error);
-      setErro('Erro ao carregar configurações');
+      const msg = error.response?.data?.detail || error.message || 'Erro ao carregar configurações';
+      console.error('Erro ao carregar configurações:', error, error.response?.data);
+      setErro(msg);
     } finally {
       setLoading(false);
     }
